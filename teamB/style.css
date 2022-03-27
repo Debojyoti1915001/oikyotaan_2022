@@ -155,3 +155,26 @@ body {
   right: 0;
   box-shadow: inset 0px 0px 150px black;
 }
+/* EXPLORE STYLE */
+.explore-main
+{
+  height: 100vh;
+}
+.explore-content img{
+  height: 300px;;
+  width:200px;
+  margin:  50px;;
+}
+.explore-content
+{
+  position: relative;
+  /* top: 50%; */
+  left: 18%;
+}
+.explore-heading {
+  text-align: center;
+  position: relative;
+  /* top: 40%; */
+  margin-top: 20px;
+ 
+}
