@@ -162,9 +162,21 @@ body {
 
 .journal_flex {
   display: flex;
+  flex-direction: row;
 }
 
 .journalImage {
   width: 42em;
   margin: 2.5em;
+}
+
+@media only screen and (max-width: 800px) {
+  .journal_flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  .journalImage {
+    width: 80%;
+    margin: 10%;
+  }
 }
