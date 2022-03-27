@@ -155,3 +155,16 @@ body {
   right: 0;
   box-shadow: inset 0px 0px 150px black;
 }
+
+.journal_content {
+  text-align: center;
+}
+
+.journal_flex {
+  display: flex;
+}
+
+.journalImage {
+  width: 42em;
+  margin: 2.5em;
+}
