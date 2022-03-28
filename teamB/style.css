@@ -142,7 +142,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   /* filter: blur(2px); */
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   display: flex;
@@ -174,5 +174,30 @@ body {
 @media only screen and (max-width: 500px) {
   .landing h1 {
     font-size: 2rem;
+  }
+}
+
+.journal_content {
+  text-align: center;
+}
+
+.journal_flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.journalImage {
+  width: 42em;
+  margin: 2.5em;
+}
+
+@media only screen and (max-width: 800px) {
+  .journal_flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  .journalImage {
+    width: 80%;
+    margin: 10%;
   }
 }
