@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  overflow: hidden;
+  scroll-snap-type: y mandatory;
+}
+
+main section:nth-of-type(even) {
+  background-color: rgb(165, 135, 135);
+}
+
+main section {
+  scroll-snap-align: start;
+}
