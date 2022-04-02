@@ -18,7 +18,7 @@ html,body {
 
 main {
   overflow: scroll;
-  height: 100vh;
+  height: 102vh;
   scroll-snap-type: y mandatory;
 }
 
