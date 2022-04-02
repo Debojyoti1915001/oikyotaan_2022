@@ -4,8 +4,21 @@
   box-sizing: border-box;
 }
 
-main {
+/* Hide scrollbar */
+
+html,body {
   overflow: hidden;
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent; 
+}
+
+main {
+  overflow: scroll;
+  height: 100vh;
   scroll-snap-type: y mandatory;
 }
 
@@ -15,4 +28,5 @@ main section:nth-of-type(even) {
 
 main section {
   scroll-snap-align: start;
+  position: relative;
 }
