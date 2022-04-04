@@ -1,6 +1,37 @@
 .navbar{
-  height: 72px;
+  width: 100%;
   position: absolute;
   top: 0;
   z-index: 10;
+}
+
+.navbar nav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar nav a{
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.navbar nav img{
+  width: 150px;
+  margin-top: -1rem;
+}
+
+.navbar nav a:hover,
+.navbar nav a.active{
+  background-image: url("/img/navbar/Navbar-Hover.svg"); 
+  background-size: 100px;
+  background-position: 28px 0;
+  background-repeat: no-repeat;
+}
+
+.navbar nav a.navbar-brand:hover,
+.navbar nav a.navbar-brand:focus,
+.navbar nav a.navbar-brand:active{
+  background: none;
 }

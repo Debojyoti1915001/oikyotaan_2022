@@ -9,6 +9,14 @@
 html,body {
   overflow: hidden;
   height: 100vh;
+  font-family: 'Berkshire Swash', sans-serif;
+}
+
+/* CSS Reset */
+
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
 ::-webkit-scrollbar {
@@ -17,13 +25,14 @@ html,body {
 }
 
 main {
-  overflow: scroll;
   height: 102vh;
+  overflow: scroll;
+  scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
 }
 
 main section:nth-of-type(even) {
-  background-color: rgb(165, 135, 135);
+  background-color: #f59b27;
 }
 
 main section {
