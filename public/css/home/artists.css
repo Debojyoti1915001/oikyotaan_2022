@@ -1,3 +1,50 @@
 .artists {
-  height: 100vh;
+  font-family: arial;
+  font-size: 16px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+.artists img {
+  max-width: 130%;
+}
+.artists .artists-ui-card {
+  width: 450px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  background: radial-gradient(#111 50%, #000 100%);
+}
+
+.artists .artists-ui-card img {
+  transform: scale(1.3);
+  transition: all 0.3s ease-out;
+}
+.artists .artists-ui-card:hover img {
+  transform: scale(1.1) translateY(-20px);
+  opacity: 0.3;
+}
+.artists .artists-ui-card .artists-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  color: yellow;
+  font-size: 18px;
+}
+.artists .artists-ui-card .artists-description h3 {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0 0 20px;
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.artists .artists-ui-card:hover .artists-description h3 {
+  opacity: 1;
+  transform: translateY(0px);
 }
