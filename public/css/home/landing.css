@@ -1,3 +1,91 @@
-.landing-animation {
+.landing {
   height: 100vh;
+  position: relative;
+}
+
+.landing .landing-bg{
+  width: 100%;
+  height: 100%;
+}
+
+.landing .left-cloud{
+  width: 30vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.landing .right-cloud{
+  width: 30vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.landing .cloud{
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%);
+}
+
+.landing .buildings{
+  width: 95%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20%;
+}
+
+.landing .bottom-bg{
+  width: 100%;
+  height: 25vh;
+  position: absolute;
+  bottom: 0;
+  background-color: #52021f;
+}
+
+.landing .grass{
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  bottom: 23%;
+  transform: translateX(-50%);
+}
+
+.landing .men{
+  width: 13vw;
+  position: absolute;
+  bottom: 23%;
+  left: 25%;
+}
+
+.landing .women{
+  width: 14vw;
+  position: absolute;
+  bottom: 22%;
+  right: 26%;
+}
+
+.landing .left-tree{
+  position: absolute;
+  bottom: 23%;
+  width: 15vw;
+  left: -1%;
+}
+
+.landing .right-tree{
+  position: absolute;
+  bottom: 23%;
+  width: 15vw;
+  right: 0;
+}
+
+.landing .birds{
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
 }
