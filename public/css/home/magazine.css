@@ -1,3 +1,195 @@
 .magazine {
+  font-family: "Li Shadhinata";
   height: 100vh;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  position: relative;
+  /* background-color: #f14516;
+  opacity: 12%; */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+21,ffffff+38,fde3ba+100 */
+
+  background: #ffffff;
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    #ffffff 0%,
+    #ffffff 21%,
+    #ffffff 38%,
+    #fde3ba 100%
+  );
+
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    #ffffff 0%,
+    #ffffff 21%,
+    #ffffff 38%,
+    #fde3ba 100%
+  );
+
+  background: radial-gradient(
+    ellipse at center,
+    #ffffff 0%,
+    #ffffff 21%,
+    #ffffff 38%,
+    #fde3ba 100%
+  );
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fde3ba',GradientType=1 );
+
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* .magazine .background {
+  background-image: url("./bgimg/magazine_background.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+
+.magazine .magazine_heading {
+  font-size: 5em;
+  text-align: center;
+  padding-top: 2.5rem;
+  position: absolute;
+  top: 0px;
+  margin-bottom: 2.5rem;
+  color: #9d053c;
+}
+
+/***Magazine Center heading design****/
+.magazine .magazine_center_heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+  letter-spacing: 2rem;
+  color: #fddeca;
+}
+/**Testing*/
+
+input {
+  display: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.book {
+  display: flex;
+  /*extra**/
+  margin-top: 100px;
+  z-index: 1000;
+}
+#cover {
+  width: 250px;
+  height: 400px;
+}
+.flip-book {
+  width: 250px;
+  height: 400px;
+  position: relative;
+  perspective: 1500px;
+  /****/
+  /* overflow: hidden; */
+}
+.flip {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  transition: 0.5s;
+  color: #000;
+}
+p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 13px;
+  box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5) 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  background-color: #000;
+}
+.next-btn {
+  position: absolute;
+  bottom: 13px;
+  right: 13px;
+  cursor: pointer;
+  color: #000;
+}
+.back-btn {
+  position: absolute;
+  bottom: 13px;
+  right: 13px;
+  cursor: pointer;
+  color: #fff;
+}
+#p1 {
+  z-index: 3;
+}
+#p1 {
+  z-index: 2;
+}
+#p1 {
+  z-index: 1;
+}
+#c1:checked ~ .flip-book #p1 {
+  transform: rotateY(-180deg);
+  z-index: 1;
+}
+#c2:checked ~ .flip-book #p2 {
+  transform: rotateY(-180deg);
+  z-index: 2;
+}
+#c3:checked ~ .flip-book #p3 {
+  transform: rotateY(-180deg);
+  z-index: 3;
+}
+
+/***Magazine Button*/
+.magazine_button {
+  margin: 3rem 0 0;
+}
+.magazine_button .magazine_btn_link a {
+  text-decoration: none;
+}
+.magazine_button .magazine_btn_link {
+  padding: 0.75rem 1.5rem;
+  background-color: #a0053d;
+  border-radius: 5px;
+  color: #f5e181;
+  transition: 0.1s;
+}
+.magazine_button .magazine_btn_link:hover {
+  color: #a0053d;
+  background: #fef8ed;
+  border: 1px solid #a0053d;
 }
