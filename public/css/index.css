@@ -7,9 +7,8 @@
 /* Hide scrollbar */
 
 html,body {
-  overflow: hidden;
-  height: 100vh;
   font-family: 'Berkshire Swash', sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* CSS Reset */
@@ -24,18 +23,11 @@ a{
   background: transparent; 
 }
 
-main {
-  height: 102vh;
-  overflow: scroll;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-}
 
 main section:nth-of-type(even) {
   background-color: #f59b27;
 }
 
 main section {
-  scroll-snap-align: start;
   position: relative;
 }
