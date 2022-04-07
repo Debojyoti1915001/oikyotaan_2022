@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/css/home/about.css" />
     <link rel="stylesheet" href="/css/home/artists.css" />
     <link rel="stylesheet" href="/css/home/events.css" />
-    <!-- <link rel="stylesheet" href="/css/home/magazine.css" /> -->
+    <link rel="stylesheet" href="/css/home/magazine.css" />
     <link rel="stylesheet" href="/css/home/sponsors.css" />
     <link rel="stylesheet" href="/css/footer.css" />
     <!-- FONT -->
@@ -29,5 +29,16 @@
     <main><%- body %></main>
 
     <script src="/js/index.js"></script>
+
+    <!--For Turn.js(Magazine)-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/turn.js"></script>
+    <script>
+      $("#album").turn({ gradients: true, acceleration: true });
+    </script>
   </body>
 </html>
