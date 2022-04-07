@@ -1,3 +1,160 @@
 .sponsors {
-  height: 100vh;
+  height: 100vh; 
+  background-image: url("../../img/bg.svg");
+  border:30px solid red;
+  text-align: center;
+  /* font-size: 26px; */
 }
+
+.sponsor-header{
+  margin-top: 70px;
+}
+
+.sponsor-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 150px;   
+}
+
+.sponsor-box{  
+    padding-bottom: 0;
+    margin:60px;
+}
+
+.sponsor-img{
+    width:180px;
+    height:180px;   
+    /* margin-bottom: -3px; */
+    padding-bottom: 0;
+    border:6px solid red; 
+    border-image: url("../../img/vertical.svg"); 
+    /* border-image-source: url(/Outline\ design.svg); */
+}
+
+.sponsors-h1{
+  font-size: larger;
+}
+
+.sponsor-dholak{
+    width: 100px;
+    height: 140px;
+    content: url("../../img/dholak.svg");
+  }
+  
+  .dholak-text {
+    vertical-align: middle;
+    text-align: center; 
+  } 
+  
+  .floatLeft-sponsor-dholak { 
+    float: left; 
+    margin-left: 240px;
+  }
+  
+  .floatRight-sponsor-dholak { 
+    float: right;
+    margin-right: 240px;
+    transform: scaleX(-1);
+  }
+
+  
+.sponsor-outer-left{
+  margin-left: 40px;
+  float:left;
+  height:100%;
+}
+
+.sponsor-outer-right{
+  margin-right: 40px;
+  float:right;
+  height:100%;
+  transform: scaleX(-1);
+}
+
+.sponsor-image-border{
+  position:relative; 
+  width: 180px;
+  height:40px;
+}
+
+/* outlet */
+.sponsor-image-border-1{
+  position: absolute;
+  top: 31rem;
+  left: 32rem;
+  transform: scaleY(-1);
+}
+
+.sponsor-image-border-2{
+  position: absolute;
+  top: 23rem;
+  left: 24rem;
+  transform: rotate(270deg);
+}
+
+.sponsor-image-border-3{
+  position: absolute;
+  top: 23rem;
+  left: 40rem;
+  transform: rotate(90deg);
+}
+
+.sponsor-image-border-4{
+  position: absolute;
+  left: 32rem;
+  top: 15rem;
+}
+
+/* bulletin */
+.sponsor-image-border-1a{
+  left:-33px;
+  bottom: 65px;
+  transform: scaleY(-1);
+}
+
+.sponsor-image-border-2a{
+  right:326px;
+  bottom: 175px;
+  transform: rotate(270deg);
+}
+
+.sponsor-image-border-3a{
+  right:291px;
+  bottom: 175px;
+  transform: rotate(90deg);
+}
+
+.sponsor-image-border-4a{
+  bottom:325px;
+  left:148px;
+}
+
+/*media partner */
+
+.media-partner{
+  width:150px;
+  height:50px;
+  border-radius: 5px;
+  position: absolute;
+  background-color: maroon;
+  color:white;
+}
+
+.media-partner-outlet{
+    bottom:75px;
+    left:510px;
+}
+
+.media-partner-bulletin{
+  bottom:75px;
+  left:815px;
+}
+
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 12px;
+  font-size: "3";
+}
+
