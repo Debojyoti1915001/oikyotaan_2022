@@ -60,9 +60,9 @@
 .dholak-text {
     position:absolute;
     text-align: center;
-    right:37.5rem;  
+    right:41.5%;  
     font-size: 3rem;
-    color:white;
+    color:maroon;
 } 
   
   .floatLeft-sponsor-dholak { 
@@ -161,16 +161,17 @@
   position: absolute;
   background-color: maroon;
   color:white;
+  padding-top: 12px;
 }
 
 .media-partner-outlet{
-    bottom:75px;
-    left:485px;
+    bottom:15%;
+    left:32.5%
 }
 
 .media-partner-bulletin{
-  bottom:75px;
-  left:850px;
+  bottom:15%;
+  left:57.5%
 }
 
 
