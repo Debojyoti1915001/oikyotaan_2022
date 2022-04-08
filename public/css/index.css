@@ -20,6 +20,8 @@ html,
 body {
   font-family: "Berkshire Swash", sans-serif;
   scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 /* CSS Reset */

@@ -99,7 +99,8 @@
 
 .landing_button {
   position: absolute;
-  left: 45%;
+  left: 50%;
+  transform: translateX(-50%);
   top: 47%;
   border: none;
   border-radius: 25px;
