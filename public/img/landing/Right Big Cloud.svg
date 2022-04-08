@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="772.71" height="475.629" viewBox="0 0 772.71 475.629">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.975" y1="0.314" x2="0.79" y2="-0.202" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f8f9f9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.742" y1="0.559" x2="0.435" y2="-1.554" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-2586.166" y1="0.874" x2="-2626.792" y2="0.126" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Right_Big_Cloud" data-name="Right Big Cloud" transform="translate(-1153.671)">
+    <g id="Group_2367" data-name="Group 2367" transform="translate(1153.671 0)">
+      <path id="Path_8659" data-name="Path 8659" d="M1238.76-7.617V468.012a182.168,182.168,0,0,1-66.375-259.846,145.655,145.655,0,0,1-86.27-70.634,149.785,149.785,0,0,1-103.666,41.514A150.36,150.36,0,0,1,844.5,88.507a135.426,135.426,0,0,1-76.229,23.345A135.988,135.988,0,0,1,651.917,46.361a115.416,115.416,0,0,1-75.145,27.7A115.915,115.915,0,0,1,466.05-7.617Z" transform="translate(-466.05 7.617)" opacity="0.42" fill="url(#linear-gradient)" style="mix-blend-mode: overlay;isolation: isolate"/>
+      <path id="Path_8660" data-name="Path 8660" d="M1049.631-7.617V108.669A145.867,145.867,0,0,1,992.738,50.6,149.794,149.794,0,0,1,889.072,92.116,150.358,150.358,0,0,1,751.122,1.574a135.421,135.421,0,0,1-76.229,23.348A135.516,135.516,0,0,1,586.607-7.617Z" transform="translate(-276.922 7.617)" opacity="0.42" fill="url(#linear-gradient-2)" style="mix-blend-mode: overlay;isolation: isolate"/>
+      <path id="Path_8661" data-name="Path 8661" d="M766.94,91.251c-.059-1.909-.136-3.815-.136-5.739q0-3.518.136-7.005Z" transform="translate(5.769 142.727)" opacity="0.42" fill="url(#linear-gradient-3)" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+  </g>
+</svg>

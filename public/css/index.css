@@ -1,3 +1,13 @@
+/***Custom Fonts****/
+@font-face {
+  font-family: "Li Shadhinata";
+  src: url("../fornts/ANSI-V1/Li-Shadhinata-2-ANSI-V1-Italic.ttf");
+  src: url("../fornts/ANSI-V1/Li-Shadhinata-2-ANSI-V1.ttf");
+  src: url("../fornts/ANSI-V2/Li-Shadhinata-2-ANSI-V2-Italic.ttf");
+  src: url("../fornts/ANSI-V2/Li-Shadhinata-2-ANSI-V2.ttf");
+  src: url("../fornts/Unicode/Li-Shadhinata-2-Unicode-Italic.ttf");
+  src: url("../fornts/Unicode/Li-Shadhinata-2-Unicode.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,29 +16,22 @@
 
 /* Hide scrollbar */
 
-html,body {
-  overflow: hidden;
-  height: 100vh;
-  font-family: 'Berkshire Swash', sans-serif;
+html,
+body {
+  font-family: "Berkshire Swash", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* CSS Reset */
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
 ::-webkit-scrollbar {
   width: 0;
-  background: transparent; 
-}
-
-main {
-  height: 102vh;
-  overflow: scroll;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+  background: transparent;
 }
 
 main section:nth-of-type(even) {
@@ -36,6 +39,5 @@ main section:nth-of-type(even) {
 }
 
 main section {
-  scroll-snap-align: start;
   position: relative;
 }

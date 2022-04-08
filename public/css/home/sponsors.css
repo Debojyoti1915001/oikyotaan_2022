@@ -13,9 +13,14 @@
 .sponsor-container{
     display: flex;
     flex-direction: row;
+    position: relative;
     justify-content: center;
     padding-top: 150px;   
 }
+.sponsor-components 
+ {
+  position: absolute;
+} 
 
 .sponsor-box{  
     padding-bottom: 0;
@@ -26,11 +31,21 @@
     width:180px;
     height:180px;   
     /* margin-bottom: -3px; */
+    position: absolute;
     padding-bottom: 0;
-    border:6px solid red; 
+    border:6px solid red;
     border-image: url("../../img/vertical.svg"); 
     /* border-image-source: url(/Outline\ design.svg); */
 }
+
+#sponsor-img-1{
+  right:2rem;
+}
+
+#sponsor-img-2{
+  left:2rem;
+}
+
 
 .sponsors-h1{
   font-size: larger;
@@ -42,10 +57,13 @@
     content: url("../../img/dholak.svg");
   }
   
-  .dholak-text {
-    vertical-align: middle;
-    text-align: center; 
-  } 
+.dholak-text {
+    position:absolute;
+    text-align: center;
+    right:37.5rem;  
+    font-size: 3rem;
+    color:white;
+} 
   
   .floatLeft-sponsor-dholak { 
     float: left; 
@@ -73,7 +91,7 @@
 }
 
 .sponsor-image-border{
-  position:relative; 
+  position:absolute; 
   width: 180px;
   height:40px;
 }
@@ -81,54 +99,58 @@
 /* outlet */
 .sponsor-image-border-1{
   position: absolute;
-  top: 31rem;
-  left: 32rem;
+  top: 11rem;
+  right: 2rem;
   transform: scaleY(-1);
 }
 
 .sponsor-image-border-2{
   position: absolute;
-  top: 23rem;
-  left: 24rem;
+  top: 4.5rem;
+  right: 8.3rem;
   transform: rotate(270deg);
 }
 
 .sponsor-image-border-3{
   position: absolute;
-  top: 23rem;
-  left: 40rem;
+  top: 4.5rem;
+  left: -6.8rem;
   transform: rotate(90deg);
 }
 
 .sponsor-image-border-4{
   position: absolute;
-  left: 32rem;
-  top: 15rem;
-}
+  right: 2rem;
+  top: -2rem;
+} 
 
 /* bulletin */
 .sponsor-image-border-1a{
-  left:-33px;
-  bottom: 65px;
+  position: absolute;
+  left:2.1rem;
+  top: 11rem;
   transform: scaleY(-1);
 }
 
 .sponsor-image-border-2a{
-  right:326px;
-  bottom: 175px;
+  position: absolute;
+  left:-4.5rem;
+  top: 4.5rem;
   transform: rotate(270deg);
 }
 
 .sponsor-image-border-3a{
-  right:291px;
-  bottom: 175px;
+  position: absolute;
+  left:8.5rem;
+  top: 4.5rem;
   transform: rotate(90deg);
 }
 
 .sponsor-image-border-4a{
-  bottom:325px;
-  left:148px;
-}
+  position: absolute;
+  top: -2rem;
+  left:2rem;
+} 
 
 /*media partner */
 
