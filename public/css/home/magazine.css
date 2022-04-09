@@ -16,8 +16,7 @@
   flex-direction: column;
   z-index: 10000;
   text-align: center;
-
-/**Potrika**/
+} 
 .magazine .magazine_heading {
   font-size: 5em;
   text-align: center;
@@ -44,7 +43,7 @@
 /***Magazine Button*/
 .magazine_button {
   margin: 3rem 0 0;
-  bottom: 200px;
+  bottom: 100px;
   position: absolute;
 }
 .magazine_button a {
@@ -84,9 +83,6 @@
   bottom: 0;
   left: 0;
   position: absolute;
-  width: 1100px;
-  height: 900px;
-  margin-top: 0rem;
   right: 0;
   top: 0;
 }
