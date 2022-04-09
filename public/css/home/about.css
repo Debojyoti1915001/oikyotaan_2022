@@ -17,17 +17,15 @@
   text-align: center;
   font-size: 5em;
   padding-top: 1.2em;
-  font-family: "Berkshire Swash", sans-serif;
-  color: #693611;
 }
 
 .about_underline {
   position: absolute;
-  top: 15%;
+  top: 23%;
   width: 10%;
   margin-left: 45%;
   padding: 5px 0 0 0;
-  background-color: #693611;
+  background-color: orange;
   border: none;
 }
 
@@ -57,22 +55,21 @@
 {
   position: absolute;
   top: 10%;
-  left: -15%;
+  left: -12%;
   height: 30%;
   animation-name: rotation ;
-  animation-duration: 5s;
-  animation-timing-function: linear;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
+
 }
 .about_rangoli_2
 {
   position: absolute;
   top: 10%;
-  right: -15%;
+  left: 86%;
   height: 30%;
   animation-name: rotation ;
-  animation-duration: 5s;
-  animation-timing-function: linear;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 

@@ -96,3 +96,22 @@
   top: 10%;
   transform: translateX(-50%);
 }
+
+.landing_button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 47%;
+  border: none;
+  border-radius: 25px;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  font-size: 2em;
+  font-weight: bold;
+  background-color: #52021f;
+  color: beige;
+}
+
+.landing_button:hover {
+  cursor: pointer;
+  background-color: #400118;
+}
