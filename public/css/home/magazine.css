@@ -1,0 +1,72 @@
+.magazine {
+  font-family: "Li Shadhinata";
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10000;
+  text-align: center;
+}
+/**Potrika**/
+.magazine .magazine_heading {
+  font-size: 5em;
+  text-align: center;
+  top: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: #9d053c;
+}
+
+/***Magazine Center heading design****/
+.magazine .magazine_center_heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16rem;
+  letter-spacing: 2rem;
+  color: #f14516;
+  opacity: 12%;
+  font-family: sans-serif;
+  font-weight: lighter;
+  z-index: -10000;
+}
+
+/***Magazine Button*/
+.magazine_button {
+  margin: 3rem 0 0;
+  bottom: 100px;
+  position: absolute;
+}
+.magazine_button .magazine_btn_link a {
+  text-decoration: none;
+}
+.magazine_button .magazine_btn_link {
+  padding: 0.75rem 1.5rem;
+  background-color: #a0053d;
+  border-radius: 5px;
+  color: #f5e181;
+  transition: 0.1s;
+}
+.magazine_button .magazine_btn_link:hover {
+  color: #a0053d;
+  background: #fef8ed;
+  border: 1px solid #a0053d;
+  overflow: hidden;
+}
+/**Magazine Album**/
+#album {
+  position: absolute;
+  width: 1100px;
+  height: 900px;
+  margin-top: 0rem;
+}
+
+.magazine {
+  background-image: url("./bgimg/magazine_background.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 180vh;
+}
