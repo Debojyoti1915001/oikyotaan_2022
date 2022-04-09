@@ -55,6 +55,21 @@
         acceleration: true,
       });
     </script>
+    
+    <script>
+      var flipbookEL = document.getElementById('flipbook');
+  
+  window.addEventListener('resize', function (e) {
+    flipbookEL.style.width = '';
+    flipbookEL.style.height = '';
+    $(flipbookEL).turn('size', flipbookEL.clientWidth, flipbookEL.clientHeight);
+  });
+  
+  $(flipbookEL).turn({
+      autoCenter: true
+  });
+  </script>
+
     <!-- EVENTS -->
     <!-- <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script> -->
     <script src="/js/script.js"></script>
