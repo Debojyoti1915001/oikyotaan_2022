@@ -3,7 +3,7 @@
   background-image: url("./bgimg/magazine_background.svg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  height: 180vh;
+  height: 170vh;
 }
 .magazine {
   font-family: "Li Shadhinata";
@@ -43,7 +43,7 @@
 /***Magazine Button*/
 .magazine_button {
   margin: 3rem 0 0;
-  bottom: 100px;
+  bottom: 200px;
   position: absolute;
 }
 .magazine_button a {

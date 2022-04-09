@@ -11,6 +11,8 @@
 }
 
 .about_heading {
+  font-family: "Berkshire Swash", sans-serif; 
+  color:#F35413;
   position: absolute;
   top: 1%;
   left: 39%;
@@ -21,7 +23,7 @@
 
 .about_underline {
   position: absolute;
-  top: 23%;
+  top: 16%;
   width: 10%;
   margin-left: 45%;
   padding: 5px 0 0 0;
