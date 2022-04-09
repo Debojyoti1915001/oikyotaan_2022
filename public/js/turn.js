@@ -8,7 +8,7 @@
  **/
 
 (function($) {
-
+ 
 'use strict';
 
 var has3d,
