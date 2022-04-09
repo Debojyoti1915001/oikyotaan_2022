@@ -8,11 +8,7 @@
  **/
 
 (function($) {
-<<<<<<< HEAD
-
-=======
  
->>>>>>> f8f44a4657f1ce6e990d6689fcbc85fc47921c21
 'use strict';
 
 var has3d,
