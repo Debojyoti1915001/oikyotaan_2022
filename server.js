@@ -12,7 +12,7 @@ import homeRoutes from "./routes/home.js";
 
 // VARIABLES
 const app = express();
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 3000;
 
 // CONFIGURATION
 app.set("view engine", "ejs").set("views", path.join(path.resolve(), "views"));

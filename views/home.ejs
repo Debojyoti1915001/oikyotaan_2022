@@ -11,8 +11,16 @@
 </section>
 
 <section id="home" class="landing">
+  <lottie-player
+    src="/lottie/birds.json"
+    mode="bounce"
+    background="transparent"
+    speed="1"
+    loop
+    autoplay
+  ></lottie-player>
   <img class="cloud" src="/img/landing/Bg Clouds.svg" alt="Clouds" />
-  <img class="birds" src="/img/landing/Birds.svg" alt="Birds" />
+  <!-- <img class="birds" src="/img/landing/Birds.svg" alt="Birds" /> -->
   <img class="buildings" src="/img/landing/Buildings.svg" alt="Buildings" />
   <img class="grass" src="/img/landing/Grass.svg" alt="Grass" />
   <img
@@ -76,13 +84,39 @@
 </section>
 
 <!-----------MAGAZINE---------------->
-<section class="magazine">
+
+
+<section class="magazine"> 
   <h1 class="magazine_heading">পত্রিকা</h1>
   <h1 class="magazine_center_heading">MAGAZINE</h1>
+<div class="wrapper">
+    <div class="aspect">
+      <div class="aspect-inner">
+        <div class="flipbook" id="flipbook">
+          <div class="page"><img src="img/magazine/cover.png" draggable="false" alt="" /></div>
+          <div class="page"><img src="https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/02.jpg" draggable="false" alt="" /></div>
+          <div class="page"><img src="https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/03.jpg" draggable="false" alt="" /></div>
+          <div class="page"><img src="https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/04.jpg" draggable="false" alt="" /></div>
+          <div class="page"><img src="https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/05.jpg" draggable="false" alt="" /></div>
+          <div class="page"><img src="https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/06.jpg" draggable="false" alt="" /></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="magazine_button">
+    <a href="#" class="magazine_btn_link">Download Magazine</a>
+  </div>
+  </section>
+
+
+
+<!-- <section class="magazine">
+  <h1 class="magazine_heading">পত্রিকা</h1>
+  <h1 class="magazine_center_heading">MAGAZINE</h1> -->
 
   <!---Flip Book-->
-  <div id="album">
-    <div 
+  <!-- <div id="album">
+    <div
       class="cover"
       style="
         background: url('img/magazine/cover.png');
@@ -104,13 +138,13 @@
     <div
       style="background: url('img/magazine/5.jpg'); background-size: cover"
     ></div>
-  </div>
+  </div> -->
   <!--End of Flip Book-->
 
-  <div class="magazine_button">
+  <!-- <div class="magazine_button">
     <a href="#" class="magazine_btn_link">Download Magazine</a>
   </div>
-</section>
+</section> -->
 <!------------------------End of Magazine section----------------------------->
 
 <section id="events" class="events"><%- include("partials/events") %></section>
