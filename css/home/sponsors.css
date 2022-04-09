@@ -1,0 +1,183 @@
+.sponsors {
+  height: 100vh; 
+  background-image: url("../../img/bg.svg");
+  border:30px solid red;
+  text-align: center;
+  /* font-size: 26px; */
+}
+
+.sponsor-header{
+  margin-top: 70px;
+}
+
+.sponsor-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    padding-top: 150px;   
+}
+.sponsor-components 
+ {
+  position: absolute;
+} 
+
+.sponsor-box{  
+    padding-bottom: 0;
+    margin:60px;
+}
+
+.sponsor-img{
+    width:180px;
+    height:180px;   
+    /* margin-bottom: -3px; */
+    position: absolute;
+    padding-bottom: 0;
+    border:6px solid red;
+    border-image: url("../../img/vertical.svg"); 
+    /* border-image-source: url(/Outline\ design.svg); */
+}
+
+#sponsor-img-1{
+  right:2rem;
+}
+
+#sponsor-img-2{
+  left:2rem;
+}
+
+
+.sponsors-h1{
+  font-size: larger;
+}
+
+.sponsor-dholak{
+    width: 100px;
+    height: 140px;
+    content: url("../../img/dholak.svg");
+  }
+  
+.dholak-text {
+    position:absolute;
+    text-align: center;
+    right:41.5%;  
+    font-size: 3rem;
+    color:maroon;
+} 
+  
+  .floatLeft-sponsor-dholak { 
+    float: left; 
+    margin-left: 240px;
+  }
+  
+  .floatRight-sponsor-dholak { 
+    float: right;
+    margin-right: 240px;
+    transform: scaleX(-1);
+  }
+
+  
+.sponsor-outer-left{
+  margin-left: 40px;
+  float:left;
+  height:100%;
+}
+
+.sponsor-outer-right{
+  margin-right: 40px;
+  float:right;
+  height:100%;
+  transform: scaleX(-1);
+}
+
+.sponsor-image-border{
+  position:absolute; 
+  width: 180px;
+  height:40px;
+}
+
+/* outlet */
+.sponsor-image-border-1{
+  position: absolute;
+  top: 11rem;
+  right: 2rem;
+  transform: scaleY(-1);
+}
+
+.sponsor-image-border-2{
+  position: absolute;
+  top: 4.5rem;
+  right: 8.3rem;
+  transform: rotate(270deg);
+}
+
+.sponsor-image-border-3{
+  position: absolute;
+  top: 4.5rem;
+  left: -6.8rem;
+  transform: rotate(90deg);
+}
+
+.sponsor-image-border-4{
+  position: absolute;
+  right: 2rem;
+  top: -2rem;
+} 
+
+/* bulletin */
+.sponsor-image-border-1a{
+  position: absolute;
+  left:2.1rem;
+  top: 11rem;
+  transform: scaleY(-1);
+}
+
+.sponsor-image-border-2a{
+  position: absolute;
+  left:-4.5rem;
+  top: 4.5rem;
+  transform: rotate(270deg);
+}
+
+.sponsor-image-border-3a{
+  position: absolute;
+  left:8.5rem;
+  top: 4.5rem;
+  transform: rotate(90deg);
+}
+
+.sponsor-image-border-4a{
+  position: absolute;
+  top: -2rem;
+  left:2rem;
+} 
+
+/*media partner */
+
+.media-partner{
+  width:150px;
+  height:50px;
+  border-radius: 5px;
+  position: absolute;
+  background-color: maroon;
+  color:white;
+  padding-top: 12px;
+}
+
+.media-partner-outlet{
+    bottom:15%;
+    left:32.5%
+}
+
+.media-partner-bulletin{
+  bottom:15%;
+  left:57.5%
+}
+
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 12px;
+  font-size: "3";
+}
+
