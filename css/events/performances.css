@@ -96,26 +96,52 @@
 }
 
 /*******************************Mobile Viewport******************************************/
-.performances .topDiv_music .topDiv_music_inner {
-  margin: 0 0px;
-  flex-direction: column;
-}
-.topDiv_music_left {
-  max-width: 100%;
-  margin-right: 0;
-  max-width: 80%;
-}
-.topDiv_music_left_imgBx {
-  width: 100%;
-}
+@media only screen and (max-width: 450px) {
+  .performances .topDiv_music .topDiv_music_inner {
+    margin: 0 0px;
+    flex-direction: column;
+  }
+  .topDiv_music .topDiv_music_inner:nth-child(2) {
+    flex-direction: column-reverse;
+  }
 
-.performances .topDiv_music .topDiv_music_inner .topDiv_music_right h1::after {
-  width: 24rem;
-  font-size: 0rem;
-}
-.performances .topDiv_music .topDiv_music_inner .topDiv_music_right h1 {
-  font-size: 2rem;
-}
-.performances .topDiv_music .topDiv_music_inner .topDiv_music_right h1::after {
-  content: none;
+  .topDiv_music_left {
+    max-width: 100%;
+    margin-right: 0;
+    max-width: 80%;
+  }
+  .topDiv_music_left_imgBx {
+    width: 100%;
+  }
+
+  .performances
+    .topDiv_music
+    .topDiv_music_inner
+    .topDiv_music_right
+    h1::after {
+    width: 24rem;
+    font-size: 0rem;
+  }
+  .performances .topDiv_music .topDiv_music_inner .topDiv_music_right h1 {
+    font-size: 2rem;
+  }
+  .performances
+    .topDiv_music
+    .topDiv_music_inner
+    .topDiv_music_right
+    h1::after {
+    content: none;
+  }
+  .topDiv_music_left {
+    max-width: 100%;
+  }
+  .topDiv_music_right {
+    max-width: 100%;
+  }
+  .performances .topDiv_music .topDiv_music_inner {
+    margin: 0 10%;
+  }
+  .heading_text {
+    margin-top: -20%;
+  }
 }
