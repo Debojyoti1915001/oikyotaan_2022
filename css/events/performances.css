@@ -94,3 +94,28 @@
 .performances .gapsUnder_paragraph {
   margin-bottom: 2rem;
 }
+
+/*******************************Mobile Viewport******************************************/
+.performances .topDiv_music .topDiv_music_inner {
+  margin: 0 0px;
+  flex-direction: column;
+}
+.topDiv_music_left {
+  max-width: 100%;
+  margin-right: 0;
+  max-width: 80%;
+}
+.topDiv_music_left_imgBx {
+  width: 100%;
+}
+
+.performances .topDiv_music .topDiv_music_inner .topDiv_music_right h1::after {
+  width: 24rem;
+  font-size: 0rem;
+}
+.performances .topDiv_music .topDiv_music_inner .topDiv_music_right h1 {
+  font-size: 2rem;
+}
+.performances .topDiv_music .topDiv_music_inner .topDiv_music_right h1::after {
+  content: none;
+}

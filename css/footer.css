@@ -99,3 +99,71 @@
   justify-content: center;
   background-color: #350109;
 }
+/*********************Media Queries****************************/
+.footerMobile {
+  font-family: century-gothic, sans-serif;
+  background-image: url("../img/footer/Footer BG.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
+.footerMobile {
+  text-align: center;
+  color: white;
+}
+.NIT_logo {
+  max-width: 5rem;
+  margin: 1rem;
+}
+.icon {
+  max-width: 1rem;
+  margin-right: 4%;
+}
+span {
+}
+.Oikyotan_logo {
+  max-width: 13rem;
+}
+.inline_text_of_mobile_footer {
+  display: inline;
+}
+.footer-bottom {
+  height: 10vh;
+  font-size: 1.1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #350109;
+  padding: 2rem 4rem;
+}
+.footerMobile_topdiv {
+  padding: 3rem 3rem;
+}
+.footerMobile_bottomdiv {
+  padding: 3rem 3rem;
+}
+@media only screen and (max-width: 450px) {
+  .footer {
+    display: none;
+  }
+  .footerMobile {
+    display: block;
+  }
+  /* .footer .footer-top {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  .footer .footer-top .NIT_logo {
+    max-width: 5rem;
+  }
+  .footer .footer-top .Oikyotan_logo {
+    max-width: 13rem;
+  }
+  .footer .footer-mid {
+    margin-top: -50px;
+  }
+  .footer .footer-mid .footer-mid-left {
+    padding: 2rem 4rem;
+  } */
+}
