@@ -3,6 +3,7 @@
   position: absolute;
   top: 0;
   z-index: 10;
+  font-family: "Berkshire Swash", sans-serif;
 }
 
 .navbar nav{
@@ -25,8 +26,8 @@
 .navbar nav a:hover,
 .navbar nav a.active{
   background-image: url("/img/navbar/Navbar-Hover.svg"); 
-  background-size: 80px;
-  background-position: 25px 0;
+  background-size: 70px;
+  background-position: 26px 2px;
   background-repeat: no-repeat;
 }
 

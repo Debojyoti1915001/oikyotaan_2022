@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="/css/navbar.css" />
     <link rel="stylesheet" href="/css/home/landing.css" />
     <link rel="stylesheet" href="/css/home/about.css" />
+    <link rel="stylesheet" href="/css/home/events.css" />
+
     <link rel="stylesheet" href="/css/home/artists.css" />
     <link rel="stylesheet" href="/css/home/events.css" />
     <link rel="stylesheet" href="/css/home/magazine.css" />
@@ -23,11 +25,47 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </head>
+
   <body>
     <!-- MAIN CONTENT -->
     <main><%- body %></main>
 
     <script src="/js/index.js"></script>
+
+    <!--For Turn.js(Magazine)-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/turn.js"></script>
+    
+    <script>
+      var flipbookEL = document.getElementById('flipbook');
+  
+  window.addEventListener('resize', function (e) {
+    flipbookEL.style.width = '';
+    flipbookEL.style.height = '';
+    $(flipbookEL).turn('size', flipbookEL.clientWidth, flipbookEL.clientHeight);
+  });
+  
+  $(flipbookEL).turn({
+      autoCenter: true
+  });
+  </script>
+
+    <!-- EVENTS -->
+    <!-- <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script> -->
+    <script src="/js/script.js"></script>
   </body>
 </html>

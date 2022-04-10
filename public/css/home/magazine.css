@@ -1,3 +1,111 @@
+
 .magazine {
-  height: 100vh;
+  background-image: url("./bgimg/magazine_background.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 170vh;
+}
+.magazine {
+  font-family: "Li Shadhinata";
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10000;
+  text-align: center;
+} 
+.magazine .magazine_heading {
+  font-size: 5em;
+  text-align: center;
+  top: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: #9d053c;
+}
+
+/***Magazine Center heading design****/
+.magazine .magazine_center_heading {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12rem;
+  letter-spacing: 2rem;
+  color: #f14516;
+  opacity: 12%;
+  font-family: sans-serif;
+  font-weight: lighter;
+  z-index: -10000;
+}
+
+/***Magazine Button*/
+.magazine_button {
+  margin: 3rem 0 0;
+  bottom: 100px;
+  position: absolute;
+}
+.magazine_button a {
+  text-decoration: none;
+}
+.magazine_button .magazine_btn_link {
+  padding: 0.75rem 1.5rem;
+  background-color: #a0053d;
+  border-radius: 5px;
+  color: #f5e181;
+  transition: 0.1s;
+}
+.magazine_button .magazine_btn_link:hover {
+  color: #a0053d;
+  background: #fef8ed;
+  border: 1px solid #a0053d;
+  overflow: hidden;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  margin-left:-16%;
+}
+
+.aspect {
+  padding-bottom: 70%;
+  position: relative;
+  width: 100%;
+  margin-left: 25%;
+}
+
+.aspect-inner {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.flipbook {
+  margin-top:100px;
+  height: 70%;
+  transition: margin-left 0.25s ease-out;
+  width: 90%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.flipbook .page {
+  height: 100%;
+  width: 100%;
+}
+
+.flipbook .page img {
+  max-width: 100%;
+  height: 100%;
 }
