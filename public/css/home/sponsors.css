@@ -82,6 +82,7 @@
 }
 .media-card img{
   width:200px;
+  height: 50px;
   position:absolute;
   display: flex;
   justify-content: center;
