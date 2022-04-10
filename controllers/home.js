@@ -6,4 +6,8 @@ const getHomePage = (req, res) => {
   res.render("home");
 };
 
-export { getHomePage };
+const getGallery = (req, res) => {
+  res.render("gallery");
+};
+
+export { getHomePage,getGallery };
