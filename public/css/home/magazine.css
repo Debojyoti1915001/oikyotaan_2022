@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: 100% auto;
   height: 170vh;
-}
+} 
 .magazine {
   font-family: "Li Shadhinata";
   overflow: hidden;
@@ -20,8 +20,7 @@
 .magazine .magazine_heading {
   font-size: 5em;
   text-align: center;
-  top: 3.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 3.5rem;
   color: #9d053c;
 }
 
