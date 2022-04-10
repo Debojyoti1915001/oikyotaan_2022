@@ -78,19 +78,20 @@
 .media-card{
   width:250px;
   height:50px;
+  margin-left: 4%;
 }
 .media-card img{
   width:200px;
   position:absolute;
+  display: flex;
+  justify-content: center;
 }
 .partners-box{
   position: absolute;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  /* justify-content: space-evenly; */
-  /* width: 100%; */
-justify-content: center;
+  width: 100%;
+ justify-content: center;
 }
 .sponsor-image-border{
   position:absolute; 
@@ -98,9 +99,6 @@ justify-content: center;
   height:250px;
 }
 
-/* outlet */
- 
-/* bulletin */
 .sponsor-image-border-1a{
   position: absolute;
   left:1%;
