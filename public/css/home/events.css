@@ -1,5 +1,5 @@
 #events{
-    height: 100vh;
+    height: 130vh;
 }
 
 
@@ -75,7 +75,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* z-index: 12; */
+    z-index: 10000;
     background-color: rgb(112, 33, 33);
     width: 50%;
 }

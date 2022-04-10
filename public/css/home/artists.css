@@ -1,51 +1,82 @@
 .artists {
-  font-size: 26px;
-  padding-top: 12em;
+  height: 130vh;
+  background: url("../../img/Artist/Background\ Artist.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.swas-artist{
+  position: absolute;
+  width:400px;
+  top:-20%;
+  left:-10%;
+  animation-name: rotation;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.swas-artist2{
+  position: absolute;
+  width:400px;
+  top:-20%;
+  right:-10%;
+  animation-name: rotation;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.swas-artist3{
+  position: absolute;
+  width:400px;
+  bottom:-20%;
+  left:-10%;
+  animation-name: rotation;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.swas-artist4{
+  position: absolute;
+  width:400px;
+  bottom:-20%;
+  right:-10%;
+  animation-name: rotation;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.artist-head {
+  width: 100%;
+  display: flex;
+  padding-top: 5%;
+  padding-left: 30%;
+  height: 20%;
+}
+
+.artist-head #head {
+  color: yellow;
+  font-size: xx-large;
+  margin-top: 4%;
+}
+#artists-swastik-1 {
+  height: 100px;
+  width: 200px;
+}
+#artists-swastik-2 {
+  height: 100px;
+  width: 200px;
+}
+.artist-box {
+  position: absolute;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  min-height: 100vh;
-  background: url("../../img/Background.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
-hr {
-  position: absolute;
-  display: block;
-  height: 1px;
-  color: yellow;
-  border: 1px solid yellow;
-  border-radius: 3px;
-  width: 30%;
-  margin-top: 1rem;
-  margin-left: 6rem;
-}
-#artists-swastik-1 {
-  position: absolute;
-  top: -1rem;
-  left: 19rem;
-  z-index: -1;
-  height: 19vh;
-}
-#artists-swastik-2 {
-  height: 19vh;
-  position: absolute;
-  top: -1rem;
-  right: 19rem;
-  z-index: -1;
-}
-h1 {
-  color: yellow;
-  text-align: center;
-  position: absolute;
-  display: inline-block;
-  left: auto;
-  top: 17%;
-  z-index: 0;
-}
-.artists .artists-box .artists-ui-card {
+
+/* .artists .artists-box .artists-ui-card {
   width: 400px;
   box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
   transition: 2s;
@@ -63,4 +94,78 @@ h1 {
   text-align: center;
   position: relative;
   bottom: 19px;
+} */
+ 
+.card {
+  
+  /* display: flex;
+  flex-direction: column; */
+  transform: translate(-5%,-40%);
+  width: 350px;
+  height: 350px;
+  background: #000;
+  
+}
+.card .image {
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+}
+.card .image img {
+  width: 100%;
+  height: 100%;
+  transition: transform .5s;
+}
+.card:hover .image img {
+  opacity: .5;
+  transform: scale(1.25);
+}
+.card .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  transition: .5s;
+  transform-origin: left;
+  transform: perspective(2000px) rotateY(-90deg);
+}
+.card:hover .details {
+  transform: perspective(2000px) rotateY(0deg);
+}
+.card .details .center {
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.card .details .center h1 {
+
+  color: #fff;
+}
+
+.card .details .center p {
+
+  color: #fff;
+}
+
+.card h3 {
+  font-size: 20px;
+  color: yellow;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+
+@keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }

@@ -9,7 +9,6 @@
   position: relative;
  
 }
-
 .about_heading {
   position: absolute;
   top: 1%;
@@ -17,15 +16,17 @@
   text-align: center;
   font-size: 5em;
   padding-top: 1.2em;
+  font-family: "Berkshire Swash", sans-serif;
+  color: #693611;
 }
 
 .about_underline {
   position: absolute;
-  top: 23%;
+  top: 15%;
   width: 10%;
   margin-left: 45%;
   padding: 5px 0 0 0;
-  background-color: orange;
+  background-color: #693611;
   border: none;
 }
 
@@ -55,10 +56,11 @@
 {
   position: absolute;
   top: 10%;
-  left: -12%;
+  left: -15%;
   height: 30%;
-  animation-name: rotation ;
-  animation-duration: 3s;
+  animation-name: rotation;
+  animation-duration: 5s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 
 }
@@ -66,10 +68,11 @@
 {
   position: absolute;
   top: 10%;
-  left: 86%;
+  right: -15%;
   height: 30%;
   animation-name: rotation ;
-  animation-duration: 3s;
+  animation-duration: 5s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
@@ -78,8 +81,8 @@
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
   }
 }

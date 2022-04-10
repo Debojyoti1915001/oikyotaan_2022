@@ -1,0 +1,157 @@
+.landing {
+    height: 100vh;
+    position: relative;
+  }
+  .landing .landing-bg {
+    width: 100%;
+    height: 100%;
+  }
+  .landing .left-cloud {
+    width: 30vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .landing .right-cloud {
+    width: 30vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .landing .bottom-bg {
+    width: 100%;
+    height: 39vh;
+    position: absolute;
+    bottom: 0;
+    background-color: #52021f;
+  }
+  .landing_bottom_text {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 5em;
+    color: #f5e08d;
+  }
+  
+  .landing .bottom-bg h4 {
+    text-align: center;
+    font-size: 2em;
+    color: #f5e08d;
+    font-family: sans-serif;
+  }
+  /***For Rangoli***/
+  .about_rangoli_1 {
+    position: absolute;
+    top: -25%;
+    left: 40%;
+    height: 30%;
+    animation-name: rangoli;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 10;
+    height: 300px;
+    width: 300px;
+    transform: translate(-50%, -50%);
+  }
+  /************Flying flags Designs**************/
+  .flying_paper_design_left {
+    position: absolute;
+    width: 40%;
+    left: 0;
+  }
+  .flying_paper_design_right {
+    position: absolute;
+    width: 40%;
+    transform: rotateY(180deg);
+    right: 0;
+    margin-top: -2%;
+  }
+  
+  @keyframes rangoli {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }.landing {
+    height: 100vh;
+    position: relative;
+  }
+  .landing .landing-bg {
+    width: 100%;
+    height: 100%;
+  }
+  .landing .left-cloud {
+    width: 30vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .landing .right-cloud {
+    width: 30vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .landing .bottom-bg {
+    width: 100%;
+    height: 39vh;
+    position: absolute;
+    bottom: 0;
+    background-color: #52021f;
+  }
+  .landing_bottom_text {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 5em;
+    color: #f5e08d;
+  }
+  
+  .landing .bottom-bg h4 {
+    text-align: center;
+    font-size: 2em;
+    color: #f5e08d;
+    font-family: sans-serif;
+  }
+  /***For Rangoli***/
+  .about_rangoli_1 {
+    position: absolute;
+    top: -25%;
+    left: 40%;
+    height: 30%;
+    animation-name: rangoli;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 10;
+    height: 300px;
+    width: 300px;
+    transform: translate(-50%, -50%);
+  }
+  /************Flying flags Designs**************/
+  .flying_paper_design_left {
+    position: absolute;
+    width: 40%;
+    left: 0;
+  }
+  .flying_paper_design_right {
+    position: absolute;
+    width: 40%;
+    transform: rotateY(180deg);
+    right: 0;
+    margin-top: -2%;
+  }
+  
+  @keyframes rangoli {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
