@@ -10,4 +10,10 @@ const getGallery = (req, res) => {
   res.render("gallery");
 };
 
-export { getHomePage,getGallery };
+const getEvents = (req, res) => {
+  res.render("events");
+};
+
+
+
+export { getHomePage,getGallery, getEvents };
