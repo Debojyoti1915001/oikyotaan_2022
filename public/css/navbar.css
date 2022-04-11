@@ -30,9 +30,13 @@
   background-position: 26px 2px;
   background-repeat: no-repeat;
 }
-
+ 
 .navbar nav a.navbar-brand:hover,
 .navbar nav a.navbar-brand:focus,
 .navbar nav a.navbar-brand:active{
   background: none;
+}
+@media screen and (max-width:768px) {
+
+  
 }
