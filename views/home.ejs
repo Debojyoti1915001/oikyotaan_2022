@@ -1,23 +1,102 @@
-<!------------------------navbar section-------------------------->
-<section class="navbar"><%- include("partials/navbar") %> </section>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oikyotaan 2022</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <!-- HOME PAGE STYLES -->
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/home/landing.css" />
+    <link rel="stylesheet" href="/css/home/about.css" />
+    <link rel="stylesheet" href="/css/home/events.css" />
 
-<!------------------------landing section-------------------------->
-<section id="home" class="landing"><%- include("partials/landing") %></section>
+    <link rel="stylesheet" href="/css/home/artists.css" />
+    <link rel="stylesheet" href="/css/home/events.css" />
+    <link rel="stylesheet" href="/css/home/magazine.css" />
+    <link rel="stylesheet" href="/css/home/sponsors.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
 
-<!------------------------about section-------------------------->
-<section class="about"><%- include("partials/about") %></section>
+  <body>
+    <!-- MAIN CONTENT -->
+    <main>
+      <!------------------------navbar section-------------------------->
+      <section class="navbar"><%- include("partials/navbar") %></section>
 
-<!------------------------magazine section-------------------------->
-<section class="magazine"><%- include("partials/magazine") %> </section>
+      <!------------------------landing section-------------------------->
+      <section id="home" class="landing">
+        <%- include("partials/landing") %>
+      </section>
 
-<!------------------------Events Section----------------------------->
-<section id="events" class="events"><%- include("partials/events") %></section>
+      <!------------------------about section-------------------------->
+      <section class="about"><%- include("partials/about") %></section>
 
-<!------------------------Artist Section----------------------------->
-<section class="artists"><%- include("partials/artist") %></section>
+      <!------------------------magazine section-------------------------->
+      <section class="magazine"><%- include("partials/magazine") %></section>
 
-<!------------------------sponsor Section----------------------------->
-<section class="sponsors"><%- include("partials/sponsor") %></section>
+      <!------------------------Events Section----------------------------->
+      <section id="events" class="events">
+        <%- include("partials/events") %>
+      </section>
 
-<!------------------------footer Section----------------------------->
-<%- include("partials/footer") %>
+      <!------------------------Artist Section----------------------------->
+      <section class="artists"><%- include("partials/artist") %></section>
+
+      <!------------------------sponsor Section----------------------------->
+      <section class="sponsors"><%- include("partials/sponsor") %></section>
+
+      <!------------------------footer Section----------------------------->
+      <%- include("partials/footer") %>
+    </main>
+
+    <script src="/js/index.js"></script>
+
+    <!--For Turn.js(Magazine)-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/turn.js"></script>
+
+    <script>
+      var flipbookEL = document.getElementById("flipbook");
+
+      window.addEventListener("resize", function (e) {
+        flipbookEL.style.width = "";
+        flipbookEL.style.height = "";
+        $(flipbookEL).turn(
+          "size",
+          flipbookEL.clientWidth,
+          flipbookEL.clientHeight
+        );
+      });
+
+      $(flipbookEL).turn({
+        autoCenter: true,
+      });
+    </script>
+
+    <!-- EVENTS -->
+    <script src="/js/script.js"></script>
+  </body>
+</html>
