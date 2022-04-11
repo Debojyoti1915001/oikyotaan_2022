@@ -36,10 +36,6 @@ a {
   background: transparent;
 }
 
-main section:nth-of-type(even) {
-  background-color: #f59b27;
-}
-
 main section {
   position: relative;
 }

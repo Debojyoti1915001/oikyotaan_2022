@@ -1,6 +1,7 @@
 .landing {
   height: 100vh;
   position: relative;
+  background-color: #f59b27;
 }
   
 .landing .landing-bg{
@@ -221,4 +222,16 @@
 .landing_button:hover {
   cursor: pointer;
   background-color: #400118;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.20, 1.20);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }

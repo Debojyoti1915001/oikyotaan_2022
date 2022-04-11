@@ -1,6 +1,6 @@
 .sponsors {
   height: 130vh; 
-  background-image: url("../../img/bg.svg");
+  background-image: url("../../img/Sponsor/bg.svg");
   border:30px solid red;
   text-align: center;
   /* font-size: 26px; */
@@ -14,7 +14,7 @@
     position: absolute;
     padding-bottom: 0;
     border:6px solid red;
-    border-image: url("../../img/vertical.svg"); 
+    border-image: url("../../img/Sponsor/vertical.svg"); 
     /* border-image-source: url(/Outline\ design.svg); */
 }
   .sponsor-head {

@@ -1,6 +1,6 @@
 .performances {
   font-family: "Li Shadhinata";
-  padding-top: 300px;
+  padding-top: 400px; 
   background-color: #52021f;
 }
 .performances .topDiv_music {
@@ -73,20 +73,6 @@
   margin-top: -10%;
   margin-left: -1%;
 }
-/* .performances
-    .topDiv_music
-    .topDiv_music_inner
-    .topDiv_music_right
-    .topDiv_music_right_heading::before {
-    content: "01";
-    background-color: transparent;
-    color: #69222d;
-    font-weight: bold;
-    position: absolute;
-    top: 0;
-    font-size: 4rem;
-    margin-right: 4rem;
-  } */
 .performances .topDiv_music .topDiv_music_inner .topDiv_music_right span {
   margin-bottom: 1rem;
   display: inline-block;
@@ -101,6 +87,9 @@
     margin: 0 0px;
     flex-direction: column;
   }
+  .topDivShift {
+    padding-top: 47%;
+}
   #reverse_div {
     flex-direction: column-reverse;
   }
@@ -111,15 +100,13 @@
     margin-top: 0px;
   }
 
-  .topDiv_music_left {
-    max-width: 100%;
+  .topDiv_music_left {  
     margin-right: 0;
     max-width: 80%;
   }
   .topDiv_music_left_imgBx {
     width: 100%;
   }
-
   .performances
     .topDiv_music
     .topDiv_music_inner
@@ -153,5 +140,6 @@
 
   .performances {
     padding-top: 0;
+    margin-top:-35%;
   }
 }
