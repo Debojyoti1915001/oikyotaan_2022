@@ -5,21 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/event_main/events.css" />
-    <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <!-- <link rel="stylesheet" href="/css/event_main/events.css" /> -->
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
     <!-- <link rel="stylesheet" href="css/home/landing.css" /> -->
-    <link rel="stylesheet" href="css/events/performances.css" />
-    <link rel="stylesheet" href="css/events/landing.css" />
+    <link rel="stylesheet" href="/css/events/performances.css" />
+    <link rel="stylesheet" href="/css/events/landing.css" />
 
     <!-- fonts -->
-    <link rel="stylesheet" href="fornts/Unicode/Li-Shadhinata-2-Unicode.ttf" />
+    <link rel="stylesheet" href="/fornts/Unicode/Li-Shadhinata-2-Unicode.ttf" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Events</title>
   </head>
   <body>
     <section class="navbar"><%- include("partials/navbar") %></section>
+    <!--------------- NAVBAR MOBILE --------------------->
+    <section class="navbar-mobile">
+      <%- include("partials/navbar-mobile") %>
+    </section>
     <section id="home" class="landing">
       <img class="cloud" src="/img/landing/Bg Clouds.svg" alt="Clouds" />
       <img
@@ -124,5 +132,8 @@
     <!--Footer-->
     <%- include("partials/footer") %>
     <!--Footer-End-->
+
+    <!-- NAVBAR MOBILE -->
+    <script src="/js/navbar.js"></script>
   </body>
 </html>

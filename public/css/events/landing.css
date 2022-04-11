@@ -6,94 +6,103 @@
 .landing .landing-bg {
   margin-top: 10%;
   width: 100%;
-  height: 100%;
+  position: absolute;
+  top: -10%;
+  animation: none;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
 }
-.cloud {
+#home .cloud {
+  position: absolute;
+  top: 5%;
   animation: cloud_event 30s linear infinite;
   -webkit-animation: cloud_event 30s linear infinite;
   -moz-animation: cloud_event 30s linear infinite;
   -o-animation: cloud_event 30s linear infinite;
 }
+
 @keyframes cloud_event {
   0% {
-    margin-left: 1000px;
+    left: 0;
   }
   100% {
-    margin-left: -1000px;
+    left: 100%;
   }
 }
 @-webkit-keyframes cloud_event {
   0% {
-    margin-left: 1000px;
+    left: 0;
   }
   100% {
-    margin-left: -1000px;
+    left: 100%;
   }
 }
 @-moz-keyframes cloud_event {
   0% {
-    margin-left: 1000px;
+    left: 0;
   }
   100% {
-    margin-left: -1000px;
+    left: 100%;
   }
 }
 @-o-keyframes cloud_event {
   0% {
-    margin-left: 1000px;
+    left: 0;
   }
   100% {
-    margin-left: -1000px;
+    left: 100%;
   }
 }
+.performances{
+  position: relative;
+}
+
 .bottom-bg {
   width: 100%;
 }
+
 .landing_bottom_text {
   text-align: center;
   position: absolute;
   top: 4%;
-  left: 30%;
-  font-size: 5em;
+  left: 50%;
+  font-size: 9em;
   color: #f5e08d;
+  z-index: 100;
+  transform: translateX(-50%);
+  width: 100%;
 }
 
 .landing_bottom_text2 {
   text-align: center;
   position: absolute;
-  font-size: 2em;
+  font-size: 3em;
   color: #f5e08d;
   font-family: sans-serif;
   top: 19%;
-  left: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
 }
 /***For Rangoli***/
 .about_rangoli_1 {
   position: absolute;
-  top: -1%;
-  left: 39%;
-  
+  top: -5%;
+  left: 32%;
   animation-name: rangoli;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   z-index: 10;
-  height: 300px;
-  width: 300px;
+  width: 35%;
 }
 /************Flying flags Designs**************/
 .flying_paper_design_left {
   position: absolute;
   width: 40%;
   left: 0;
-  top: 13%;
-}
-.flying_paper_design_right {
-  position: absolute;
-  width: 40%;
-  transform: rotateY(180deg);
-  right: 0;
-  top: 14%;
+  top: 16%;
 }
 
 @keyframes rangoli {
@@ -126,7 +135,7 @@
   width: 40%;
   transform: rotateY(180deg);
   right: 0;
-  margin-top: -2%;
+  top: 16%;
 }
 
 @keyframes rangoli {
@@ -143,7 +152,7 @@
 @media only screen and (max-width: 450px) {
   .landing .landing-bg {
     height: 45%;
-    margin-top: 32%;
+    top: 28%;
 }
   .landing {
     height: 50vh;
@@ -159,14 +168,13 @@
     width: 213px;
 }
 .landing_bottom_text {
+  width: 100%;
   top: 3%;
-  left: 22%;
   font-size: 2.2em;
 }
 .landing_bottom_text2 {
   font-size: 1em;
-  top: 9%;
-  left: 34%;
+  top: 8%;
 }
 .flying_paper_design_left {
   top: 6%;
