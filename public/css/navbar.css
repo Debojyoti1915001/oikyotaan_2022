@@ -60,6 +60,7 @@
   z-index: 1;
   right: 0%;
   margin: 2.1rem 2rem;
+  z-index: 9989;
 }
 
 .navbar-mobile .navbar-mobile-hamburger div{
