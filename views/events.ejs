@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> 
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/event_main/events.css" />
-    <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <!-- <link rel="stylesheet" href="/css/event_main/events.css" /> -->
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
     <!-- <link rel="stylesheet" href="css/home/landing.css" /> -->
-    <link rel="stylesheet" href="css/events/performances.css" />
-    <link rel="stylesheet" href="css/events/landing.css" />
+    <link rel="stylesheet" href="/css/events/performances.css" />
+    <link rel="stylesheet" href="/css/events/landing.css" />
 
     <!-- fonts -->
-    <link rel="stylesheet" href="fornts//Unicode/Li-Shadhinata-2-Unicode.ttf" />
+    <link rel="stylesheet" href="/fornts/Unicode/Li-Shadhinata-2-Unicode.ttf" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
+      rel="stylesheet"
+    />
 
-    <title>Events</title> 
+    <title>Events</title>
   </head>
   <body>
-    <section class="navbar"><%- include("partials/navbar") %> </section>
-    <section id="home" class="landing">
-      
-    <img class="cloud" src="/img/landing/Bg Clouds.svg" alt="Clouds" />
-    <img
-          class="landing-bg"
-          src="/img/events/main page/Victoria Memorial.png"
-          alt="Event page View BG"
-        /> 
-
+    <section class="navbar"><%- include("partials/navbar") %></section>
+    <!--------------- NAVBAR MOBILE --------------------->
+    <section class="navbar-mobile">
+      <%- include("partials/navbar-mobile") %>
     </section>
-     
-    
+    <section id="home" class="landing">
+      <img class="cloud" src="/img/landing/Bg Clouds.svg" alt="Clouds" />
+      <img
+        class="landing-bg"
+        src="/img/events/main page/Victoria Memorial.png"
+        alt="Event page View BG"
+      />
+    </section>
 
     <!--Events-Main Div--->
     <section class="performances">
@@ -42,7 +46,7 @@
           src="/img/events/flying_paper_design_left.png"
           alt=""
         />
-        
+
         <h2 class="landing_bottom_text" style="font-family: Li Shadhinata">
           সাংস্কৃতিক অনুষ্ঠান
         </h2>
@@ -59,72 +63,77 @@
         />
       </div>
       <div class="topDivShift">
-      <div class="topDiv_music">
-        <div class="topDiv_music_inner">
-          <div class="topDiv_music_left">
-            <div class="topDiv_music_left_imgBx">
-              <img src="/img/Artist/aces.jpeg" alt="" />
-            </div>
-          </div>
-          <div class="topDiv_music_right">
-            <div class="topDiv_music_right_heading">
-              <div class="number01">01</div>
-              <div class="heading_text">
-                <h1 class="topDiv_music_right_heading">গান-বাজনা</h1>
-                <p style="margin-top: -3%">Music-instrument</p>
+        <div class="topDiv_music">
+          <div class="topDiv_music_inner">
+            <div class="topDiv_music_left">
+              <div class="topDiv_music_left_imgBx">
+                <img src="/img/Artist/aces.jpeg" alt="" />
               </div>
             </div>
-
-            <p class="gapsUnder_paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio ut accusamus, rerum molestias fugiat odit perspiciatis
-              id quos nesciunt praesentium, velit, odio placeat incidunt
-              inventore totam asperiores nostrum reiciendis? Repudiandae!
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-              voluptatum!
-            </p>
-          </div>
-        </div>
-      </div>
-      <!---Bottom Div-->
-      <div class="topDiv_music">
-        <div class="topDiv_music_inner" id="reverse_div">
-          <div class="topDiv_music_right">
-            <div class="topDiv_music_right_heading">
-              <div class="number01">02</div>
-              <div class="heading_text">
-                <h1>অনুষদের বক্তৃতা</h1>
-                <p style="margin-top: -3%">Faculty Speech</p>
+            <div class="topDiv_music_right">
+              <div class="topDiv_music_right_heading">
+                <div class="number01">01</div>
+                <div class="heading_text">
+                  <h1 class="topDiv_music_right_heading">গান-বাজনা</h1>
+                  <p style="margin-top: -3%">Music-instrument</p>
+                </div>
               </div>
-            </div>
 
-            <p class="gapsUnder_paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio ut accusamus, rerum molestias fugiat odit perspiciatis
-              id quos nesciunt praesentium, velit, odio placeat incidunt
-              inventore totam asperiores nostrum reiciendis? Repudiandae!
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-              voluptatum!
-            </p>
-          </div>
-
-          <div class="topDiv_music_left">
-            <div class="topDiv_music_left_imgBx" style="float: right">
-              <img src="img/Artist/aces.jpeg" alt="" />
+              <p class="gapsUnder_paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio ut accusamus, rerum molestias fugiat odit
+                perspiciatis id quos nesciunt praesentium, velit, odio placeat
+                incidunt inventore totam asperiores nostrum reiciendis?
+                Repudiandae!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+                voluptatum!
+              </p>
             </div>
           </div>
         </div>
+        <!---Bottom Div-->
+        <div class="topDiv_music">
+          <div class="topDiv_music_inner" id="reverse_div">
+            <div class="topDiv_music_right">
+              <div class="topDiv_music_right_heading">
+                <div class="number01">02</div>
+                <div class="heading_text">
+                  <h1>অনুষদের বক্তৃতা</h1>
+                  <p style="margin-top: -3%">Faculty Speech</p>
+                </div>
+              </div>
+
+              <p class="gapsUnder_paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio ut accusamus, rerum molestias fugiat odit
+                perspiciatis id quos nesciunt praesentium, velit, odio placeat
+                incidunt inventore totam asperiores nostrum reiciendis?
+                Repudiandae!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+                voluptatum!
+              </p>
+            </div>
+
+            <div class="topDiv_music_left">
+              <div class="topDiv_music_left_imgBx" style="float: right">
+                <img src="img/Artist/aces.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
     </section>
     <!--End of Events-Main Div-->
 
     <!--Footer-->
     <%- include("partials/footer") %>
     <!--Footer-End-->
+
+    <!-- NAVBAR MOBILE -->
+    <script src="/js/navbar.js"></script>
   </body>
 </html>
