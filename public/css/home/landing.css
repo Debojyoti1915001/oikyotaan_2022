@@ -250,6 +250,19 @@
   }
 }
 
+.left-tree-lottie{
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  left: -46%;
+}
+
+.right-tree-lottie{
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  right: -46%;
+}
 
 
 /*******************************Mobile Viewport******************************************/
