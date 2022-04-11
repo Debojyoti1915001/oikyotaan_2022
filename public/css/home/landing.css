@@ -33,10 +33,10 @@
 }
 
 .cloud {
-  animation: moveclouds 30s linear infinite;
-  -webkit-animation: moveclouds 30s linear infinite;
-  -moz-animation: moveclouds 30s linear infinite;
-  -o-animation: moveclouds 30s linear infinite;
+  animation: moveclouds 30s cubic-bezier(0, 0.47, 0.87, 0.18) infinite;
+  -webkit-animation: moveclouds 30s cubic-bezier(0, 0.47, 0.87, 0.18) infinite;
+  -moz-animation: moveclouds 30s cubic-bezier(0, 0.47, 0.87, 0.18) infinite;
+  -o-animation: moveclouds 30s cubic-bezier(0, 0.47, 0.87, 0.18) infinite;
 }
 @keyframes moveclouds {
   0% {
@@ -236,4 +236,55 @@
 .landing_button:hover {
   cursor: pointer;
   background-color: #400118;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.20, 1.20);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+
+
+/*******************************Mobile Viewport******************************************/
+@media only screen and (max-width: 450px) {
+
+  .landing_bottom_text {
+    margin-top: 15%;
+  }
+  .landing .men {
+    width: 19vw;
+    bottom: 25%;
+    left: 30%;
+  }
+  .landing .women {
+    width: 24vw;
+    bottom: 23%;
+    right: 30%;
+ }
+ .landing .left-tree {
+  width: 27vw;
+ }
+ .landing .right-tree {
+  width: 28vw;
+  right: 5%;
+ }
+ .landing .buildings {
+  width: 220%;
+  left: 109%;
+  bottom: 21%;
+}
+.landing .cloud {
+  width: 800px;
+  top: 28%;
+}
+.landing .right-cloud {
+  width: 30vh;
+}
 }

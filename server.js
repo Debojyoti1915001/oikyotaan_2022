@@ -5,7 +5,6 @@ config();
 // IMPORTS
 import express from "express";
 import path from "path";
-import expressPartials from "express-partials";
 
 // ROUTE IMPORTS
 import homeRoutes from "./routes/home.js";
@@ -21,8 +20,7 @@ app.set("view engine", "ejs").set("views", path.join(path.resolve(), "views"));
 app
   .use(express.urlencoded({ extended: true }))
   .use(express.json())
-  .use(express.static(path.join(path.resolve(), "public")))
-  .use(expressPartials());
+  .use(express.static(path.join(path.resolve(), "public")));
 
 // ROUTES DEFINITION
 app.use("/", homeRoutes);

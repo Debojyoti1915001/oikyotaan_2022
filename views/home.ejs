@@ -1,352 +1,102 @@
-<section class="navbar">
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#">Gallery</a>
-    <a class="navbar-brand" href="/">
-      <img src="/img/Oikyotaan Logo.svg" alt="" />
-    </a>
-    <a href="/events">Event</a>
-    <a href="#">Team</a>
-  </nav>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oikyotaan 2022</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <!-- HOME PAGE STYLES -->
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/home/landing.css" />
+    <link rel="stylesheet" href="/css/home/about.css" />
+    <link rel="stylesheet" href="/css/home/events.css" />
 
-<section id="home" class="landing">
-  <lottie-player
-    src="/lottie/birds.json"
-    mode="bounce"
-    background="transparent"
-    speed="1"
-    loop
-    autoplay
-  ></lottie-player>
-  <img class="cloud" src="/img/landing/Bg Clouds.svg" alt="Clouds" />
-  <!-- <img class="birds" src="/img/landing/Birds.svg" alt="Birds" /> -->
-  <img class="buildings" src="/img/landing/Buildings.svg" alt="Buildings" />
-  <img class="grass" src="/img/landing/Grass.svg" alt="Grass" />
-  <img
-    class="landing-bg"
-    src="/img/landing/Landing Page View BG.svg"
-    alt="Landing Page View BG"
-  />
-  <img
-    class="left-cloud"
-    src="/img/landing/Left Big Cloud.svg"
-    alt="Left Big Clouds"
-  />
-  <img class="men" src="/img/landing/Men_Dancing.svg" alt="Men Dancing" />
-  <img
-    class="right-cloud"
-    src="/img/landing/Right Big Cloud.svg"
-    alt="Right Big Cloud"
-  />
-  <img class="left-tree" src="/img/landing/Tree_left.svg" alt="Tree Left" />
-  <img class="right-tree" src="/img/landing/Tree_Right.svg" alt="Right Tree" />
-  <img class="women" src="/img/landing/women_dancing.svg" alt="Women Dancing" />
-  <div class="bottom-bg">
-    <h2 class="landing_bottom_text">ঐক্যতান</h2>
-  </div>
-</section>
-
-<section class="about">
-  <div class="about_box">
-    <img src="img/about_bg.svg" alt="" srcset="" />
-    <img class="about_hanging_1" src="img/about_hanging.svg" alt="" srcset="" />
-    <h1 class="about_heading">About Us</h1>
-    <img class="about_hanging_2" src="img/about_hanging.svg" alt="" srcset="" />
-    <br />
-    <hr class="about_underline" />
-    <br /><br /><br /><br /><br />
-    <div class="about_rangoli">
-      <img
-        class="about_rangoli_1"
-        src="img/about_rangoli.svg"
-        alt=""
-        srcset=""
-      />
-      <img
-        class="about_rangoli_2"
-        src="img/about_rangoli.svg"
-        alt=""
-        srcset=""
-      />
-    </div>
-    <div class="about_text_box">
-      <p class="about_text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
-        autem magni aperiam, architecto distinctio ut soluta in tempore
-        obcaecati explicabo, sint dignissimos a! <br /><br />
-        Et laudantium eius neque voluptas nihil similique, minima earum modi?
-        Repellendus cum neque repellat minus quia repudiandae eveniet eum
-        recusandae omnis, dicta numquam doloribus asperiores rem quis.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-----------MAGAZINE---------------->
-
-<section class="magazine">
-  <h1 class="magazine_heading">পত্রিকা</h1>
-  <h1 class="magazine_center_heading">MAGAZINE</h1>
-  <div class="wrapper">
-    <div class="aspect">
-      <div class="aspect-inner">
-        <div class="flipbook" id="flipbook">
-          <div class="page">
-            <img src="img/magazine/cover.png" draggable="false" alt="" />
-          </div>
-          <div class="page">
-            <img
-              src="https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/02.jpg"
-              draggable="false"
-              alt=""
-            />
-          </div>
-          <div class="page">
-            <img
-              src="https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/03.jpg"
-              draggable="false"
-              alt=""
-            />
-          </div>
-          <div class="page">
-            <img
-              src="https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/04.jpg"
-              draggable="false"
-              alt=""
-            />
-          </div>
-          <div class="page">
-            <img
-              src="https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/05.jpg"
-              draggable="false"
-              alt=""
-            />
-          </div>
-          <div class="page">
-            <img
-              src="https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/06.jpg"
-              draggable="false"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="magazine_button">
-    <a href="#" class="magazine_btn_link">Download Magazine</a>
-  </div>
-</section>
-
-<!------------------------Events Section----------------------------->
-
-<section id="events" class="events"><%- include("partials/events") %></section>
-
-<!------------------------Artist Section----------------------------->
-<section class="artists">
-  <img
-    class="swas-artist"
-    src="/img/Artist/Artist- Back Alpona.svg"
-    alt="sostik"
-  />
-  <div class="artist-head">
-    <img
-      src="img/Artist/Headline Artist - sostik.svg"
-      alt=""
-      id="artists-swastik-1"
+    <link rel="stylesheet" href="/css/home/artists.css" />
+    <link rel="stylesheet" href="/css/home/events.css" />
+    <link rel="stylesheet" href="/css/home/magazine.css" />
+    <link rel="stylesheet" href="/css/home/sponsors.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
+      rel="stylesheet"
     />
-    <p id="head">শিল্পকার</p>
-    <img
-      src="img/Artist/Headline Artist - sostik.svg"
-      alt=""
-      id="artists-swastik-2"
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
     />
-  </div>
-  <img
-    class="swas-artist2"
-    src="/img/Artist/Artist- Back Alpona.svg"
-    alt="sostik"
-  />
-  <div class="artist-box">
-    <div class="card">
-      <div class="image">
-        <img src="img/Artist/ananya.jpeg" />
-      </div>
-      <div class="details">
-        <div class="center">
-          <h1>Someone famous</h1>
-          <p>
-            Lorem ipsum is simple dummy text on the printing and typesetting
-            industry.
-          </p>
-        </div>
-      </div>
-      <h3>অনন্যা চক্রবর্তী</h3>
-    </div>
-    <div class="card">
-      <div class="image">
-        <img src="img/Artist/aces.jpeg" />
-      </div>
-      <div class="details">
-        <div class="center">
-          <h1>Someone famous</h1>
-          <p>
-            Lorem ipsum is simple dummy text on the printing and typesetting
-            industry.
-          </p>
-        </div>
-      </div>
-      <h3>সোমলতা আচার্য্য চৌধুরী</h3>
-    </div>
-  </div>
-  <img
-    class="swas-artist3"
-    src="/img/Artist/Artist- Back Alpona.svg"
-    alt="sostik"
-  />
-  <img
-    class="swas-artist4"
-    src="/img/Artist/Artist- Back Alpona.svg"
-    alt="sostik"
-  />
-</section>
-
-<section class="sponsors">
-  <div class="sponsor-head">
-    <img src="img/dholak.svg" alt="" id="sponsor-swastik-1" />
-    <h1 class="sponsors-h1 dholak-text">Our Sponsors</h1>
-    <img src="img/dholak.svg" alt="" id="sponsor-swastik-2" />
-  </div>
-
-  <!-- Outer designed margin -->
-  <img class="sponsor-outer-left" src="/img/vertical.svg" alt="" />
-  <img class="sponsor-outer-right" src="/img/vertical.svg" alt="" />
-  <div class="sponsor-box">
-    <div class="sponsar-card">
-      <img class="sponsor-amul" src="img/amul.png" alt="amul" />
-      <div class="sponsor-components">
-        <img
-          class="sponsor-image-border sponsor-image-border-1a"
-          src="/img/sponsors outline.svg"
-          alt=""
-        />
-      </div>
-      <div class="sponsor-components">
-        <img
-          class="sponsor-image-border sponsor-image-border-2a"
-          src="/img/sponsors outline.svg"
-          alt=""
-        />
-      </div>
-      <div class="sponsor-components">
-        <img
-          class="sponsor-image-border sponsor-image-border-3a"
-          src="/img/sponsors outline.svg"
-          alt=""
-        />
-      </div>
-      <div class="sponsor-components">
-        <img
-          class="sponsor-image-border sponsor-image-border-4a"
-          src="/img/sponsors outline.svg"
-          alt=""
-        />
-      </div>
-    </div>
-    <div class="sponsar-card">
-      <div class="sponsor-components">
-        <img
-          class="sponsor-image-border sponsor-image-border-1a"
-          src="/img/sponsors outline.svg"
-          alt=""
-        />
-      </div>
-      <div class="sponsor-components">
-        <img
-          class="sponsor-image-border sponsor-image-border-2a"
-          src="/img/sponsors outline.svg"
-          alt=""
-        />
-      </div>
-      <div class="sponsor-components">
-        <img
-          class="sponsor-image-border sponsor-image-border-3a"
-          src="/img/sponsors outline.svg"
-          alt=""
-        />
-      </div>
-      <div class="sponsor-components">
-        <img
-          class="sponsor-image-border sponsor-image-border-4a"
-          src="/img/sponsors outline.svg"
-          alt=""
-        />
-      </div>
-    </div>
-  </div>
-  <br />
-  <div class="dholak-text2">
-    <h1>Our Media Partners</h1>
-  </div>
-  <br />
-  <div class="partners-box">
-    <div class="media-card">
-      <img src="img/Bulletin.jpg" />
-    </div>
-    <div class="media-card">
-      <img src="img/outlet.jpg" />
-    </div>
-  </div>
-</section>
-
-<section class="footer">
-  <div class="footer-top">
-    <img
-      class="NIT_logo"
-      src="/img/footer/NIT logo white.svg"
-      alt="NIT Silchar"
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
     />
-    <img
-      class="Oikyotan_logo"
-      src="/img/footer/Oikyotaan ' 22 logo.svg"
-      alt="Oikyotaan"
-    />
-  </div>
-  <div class="footer-mid">
-    <div class="footer-mid-left">
-      <div>
-        <img class="icon" src="/img/footer/pin.svg" alt="Location" />
-        <span> NIT Silchar, Silchar, Assam, India 788010 </span>
-      </div>
-      <div>
-        <img class="icon" src="/img/footer/phone-call.svg" alt="Call" />
-        <span>09100700125</span>
-      </div>
-    </div>
-    <div class="footer-mid-mid">
-      <div>
-        <img
-          class="icon"
-          class="fb"
-          src="/img/footer/facebook.svg"
-          alt="Facebook"
-        />
-        <a class="fb" href="#">Facebook</a>
-      </div>
-      <div>
-        <img class="icon" src="img/footer/instagram.svg" alt="Instagram" />
-        <a href="#">Instagram</a>
-      </div>
-    </div>
-    <div class="footer-mid-right">
-      <a href="#">
-        <span>Get Directions</span>
-        <img class="direction" src="/img/footer/Arrow.svg" alt="Arrow" />
-      </a>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    All Rights Reserved. &#169; Oikyotaan, NIT Silchar
-  </div>
-</section>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </head>
+
+  <body>
+    <!-- MAIN CONTENT -->
+    <main>
+      <!------------------------navbar section-------------------------->
+      <section class="navbar"><%- include("partials/navbar") %></section>
+
+      <!------------------------landing section-------------------------->
+      <section id="home" class="landing">
+        <%- include("partials/landing") %>
+      </section>
+
+      <!------------------------about section-------------------------->
+      <section class="about"><%- include("partials/about") %></section>
+
+      <!------------------------magazine section-------------------------->
+      <section class="magazine"><%- include("partials/magazine") %></section>
+
+      <!------------------------Events Section----------------------------->
+      <section id="events" class="events">
+        <%- include("partials/events") %>
+      </section>
+
+      <!------------------------Artist Section----------------------------->
+      <section class="artists"><%- include("partials/artist") %></section>
+
+      <!------------------------sponsor Section----------------------------->
+      <section class="sponsors"><%- include("partials/sponsor") %></section>
+
+      <!------------------------footer Section----------------------------->
+      <%- include("partials/footer") %>
+    </main>
+
+    <script src="/js/index.js"></script>
+
+    <!--For Turn.js(Magazine)-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/turn.js"></script>
+
+    <script>
+      var flipbookEL = document.getElementById("flipbook");
+
+      window.addEventListener("resize", function (e) {
+        flipbookEL.style.width = "";
+        flipbookEL.style.height = "";
+        $(flipbookEL).turn(
+          "size",
+          flipbookEL.clientWidth,
+          flipbookEL.clientHeight
+        );
+      });
+
+      $(flipbookEL).turn({
+        autoCenter: true,
+      });
+    </script>
+
+    <!-- EVENTS -->
+    <script src="/js/script.js"></script>
+  </body>
+</html>

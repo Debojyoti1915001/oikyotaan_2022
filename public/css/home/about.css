@@ -66,6 +66,7 @@
 }
 .about_rangoli_2
 {
+  display: flex;
   position: absolute;
   top: 10%;
   right: -15%;
@@ -84,5 +85,43 @@
   50% {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
+  }
+}
+
+/*******************************Mobile Viewport******************************************/
+@media only screen and (max-width: 450px) {
+  .about_rangoli_2{
+    display: none;
+    
+  }
+  .about_rangoli_1{
+    top: 35%;
+    left: 19%;
+    height: 20%;
+  }
+  .about_hanging_1{
+    top: -3%;
+    left: 0%;
+    height: 17%;
+  }
+  .about_hanging_2{
+    top: -3%;
+    left: 80%;
+    height: 17%;
+  }
+
+  .about_heading{
+    left: 28%;
+    font-size: 3em;
+  }
+
+  .about_underline{
+    top: 10%;
+    width: 11%;
+  }
+  .about_text_box{
+    top: 13%;
+    width: 78%;
+    font-size: 1em !important;
   }
 }
