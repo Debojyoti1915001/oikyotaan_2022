@@ -5,7 +5,7 @@
   background-size: 100% auto;
 }
 
-.swas-artist{
+.swas-artist {
   position: absolute;
   width:400px;
   top:-20%;
@@ -15,7 +15,7 @@
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-.swas-artist2{
+.swas-artist2 {
   position: absolute;
   width:400px;
   top:-20%;
@@ -35,7 +35,7 @@
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-.swas-artist4{
+.swas-artist4 {
   position: absolute;
   width:400px;
   bottom:-20%;
@@ -174,9 +174,9 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .artists {
-    height: 100vh;
+    height: 105vh;
     position: relative;
     background-size: auto;
   }
