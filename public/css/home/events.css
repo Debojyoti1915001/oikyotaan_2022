@@ -4,7 +4,7 @@
 
 .events {
   width: 100%;
-  height: auto;
+  min-height: 100vh;
   background-color: rgb(112, 33, 33);
   height: auto;
   display: flex;
