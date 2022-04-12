@@ -8,8 +8,8 @@
 .swas-artist {
   position: absolute;
   width:400px;
-  top:-20%;
-  left:-10%;
+  top: -30%;
+  left: -15%;
   animation-name: rotation;
   animation-duration: 30s;
   animation-timing-function: linear;
@@ -18,8 +18,8 @@
 .swas-artist2 {
   position: absolute;
   width:400px;
-  top:-20%;
-  right:-10%;
+  top: -30%;
+  right: -15%;
   animation-name: rotation;
   animation-duration: 30s;
   animation-timing-function: linear;
@@ -28,8 +28,8 @@
 .swas-artist3{
   position: absolute;
   width:400px;
-  bottom:-20%;
-  left:-10%;
+  bottom: -30%;
+  left: -15%;
   animation-name: rotation;
   animation-duration: 30s;
   animation-timing-function: linear;
@@ -38,8 +38,8 @@
 .swas-artist4 {
   position: absolute;
   width:400px;
-  bottom:-20%;
-  right:-10%;
+  bottom: -30%;
+  right: -15%;
   animation-name: rotation;
   animation-duration: 30s;
   animation-timing-function: linear;
@@ -49,8 +49,8 @@
 .artist-head {
   width: 100%;
   display: flex;
-  padding-top: 5%;
-  padding-left: 30%;
+  padding-top: 1%;
+  padding-left: 26%;
   height: 20%;
   margin-left: 5%;
 }
@@ -77,7 +77,10 @@
   width: 100%;
   height: 100%;
   z-index: 5;
+  margin-left: 0.4rem;
+  padding-top:5% ;
 }
+
 
 /* .artists .artists-box .artists-ui-card {
   width: 400px;
@@ -180,11 +183,18 @@
     position: relative;
     background-size: auto;
   }
-  .artist-head {
+  /* .artist-head {
     margin-top: 25%;
-    margin-left: -10%;
+    margin-left: -13%;
     margin-bottom: -10%;
+    padding-top: 1%;
     transform: scale(0.9,0.9);
+  } */
+  .artist-head {
+    padding-top: 25%;
+    padding-left: -5%;
+    height: 20%;
+    margin-left: -11%;
   }
   .artist-head #head {
     margin-top: 17%;
@@ -194,22 +204,29 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-left: 1.60rem;
+    margin-left: 0.6rem;
     transform: scale(0.75, 0.75);
   }
-  .swas-artist, .swas-artist2, .swas-artist3, .swas-artist4 {
-    width: 50%;
+  .swas-artist {
+    width: 250px;
+    top: -6%;
+    left: -29%;
+}
+.swas-artist2 {
+  width: 250px;
+  top: -6%;
+  right: -29%;
+}
+  .swas-artist3{
+    width:250px;
+    bottom: -13%;
+    left: -29%;
   }
-
-  .swas-artist, .swas-artist2 {
-    margin-top: 20%;
+  .swas-artist4 {
+    width:250px;
+    bottom: -13%;
+    right: -29%;
   }
-
-  .swas-artist3, .swas-artist4 {
-    margin-bottom: 15%;
-  }
-
-  /* .swas-artist {
-    margin-left: -20%;
-  } */
+  
+  
 }
