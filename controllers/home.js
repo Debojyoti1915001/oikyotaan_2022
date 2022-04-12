@@ -14,6 +14,8 @@ const getEvents = (req, res) => {
   res.render("events");
 };
 
+const getTeam = (req, res) => {
+  res.render("team");
+};
 
-
-export { getHomePage,getGallery, getEvents };
+export { getHomePage, getGallery, getEvents, getTeam };
