@@ -268,19 +268,8 @@
 /*******************************Mobile Viewport******************************************/
 @media only screen and (max-width: 450px) {
 
-  .landing_bottom_text {
-    margin-top: 15%;
-  }
-  .landing .men {
-    width: 19vw;
-    bottom: 25%;
-    left: 30%;
-  }
-  .landing .women {
-    width: 24vw;
-    bottom: 23%;
-    right: 30%;
- }
+ 
+
  .landing .left-tree {
   width: 27vw;
  }
@@ -299,5 +288,53 @@
 }
 .landing .right-cloud {
   width: 30vh;
+}
+}
+
+.mobile-buildings{
+  display: none;
+  position: absolute;
+  top: 29%;
+  width: 145%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width:768px) {
+  .buildings{
+    display: none;
+  }
+  .mobile-buildings{
+    display: block;
+  }
+  .landing .bottom-bg {
+    height: 30vh;
+  }
+  .landing .men {
+    width: 21vw;
+    bottom: 30%;
+    left: 30%;
+  }
+  .landing .women {
+    width: 24vw;
+    bottom: 30%;
+    right: 30%;
+ }
+ .right-tree-lottie{
+  top: 10%;
+  right: -58%;
+ }
+ .left-tree-lottie{
+  top: 10%;
+  left: -58%;
+ }
+
+ .landing .left-cloud{
+   width: 70vw;
+ }
+
+ .landing_bottom_text {
+  margin-top: 15%;
+  font-size: 3rem;
 }
 }
