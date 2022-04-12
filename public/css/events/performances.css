@@ -58,7 +58,13 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  font-size: 2.5rem;
 }
+
+.topDiv_music_right_heading p{
+  font-size: 1.2rem;
+}
+
 .number01 {
   font-size: 7rem;
   color: #6a232e;
@@ -79,6 +85,7 @@
 }
 .performances .gapsUnder_paragraph {
   margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 
 /*******************************Mobile Viewport******************************************/

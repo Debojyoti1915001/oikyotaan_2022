@@ -41,6 +41,10 @@
     <main>
       <!------------------------navbar section-------------------------->
       <section class="navbar"><%- include("partials/navbar") %></section>
+      <!--------------- NAVBAR MOBILE --------------------->
+      <section class="navbar-mobile">
+        <%- include("partials/navbar-mobile") %>
+      </section>
 
       <!------------------------landing section-------------------------->
       <section id="home" class="landing">
@@ -95,6 +99,9 @@
         autoCenter: true,
       });
     </script>
+
+    <!-- NAVBAR MOBILE -->
+    <script src="/js/navbar.js"></script>
 
     <!-- EVENTS -->
     <script src="/js/script.js"></script>
