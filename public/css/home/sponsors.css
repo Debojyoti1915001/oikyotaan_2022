@@ -1,5 +1,5 @@
 .sponsors {
-  height: 130vh; 
+  height: 100vh; 
   background-image: url("../../img/Sponsor/bg.svg");
   border:30px solid red;
   text-align: center;
@@ -162,5 +162,6 @@ h3{
   font-size: "3";
 } */
 
-
-
+@media (max-width: 400px) {
+  
+}

@@ -1,10 +1,11 @@
 .artists {
-  height: 130vh;
+  height: 100vh;
   background: url("../../img/Artist/Background\ Artist.svg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
-.swas-artist{
+
+.swas-artist {
   position: absolute;
   width:400px;
   top:-20%;
@@ -14,7 +15,7 @@
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-.swas-artist2{
+.swas-artist2 {
   position: absolute;
   width:400px;
   top:-20%;
@@ -34,7 +35,7 @@
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-.swas-artist4{
+.swas-artist4 {
   position: absolute;
   width:400px;
   bottom:-20%;
@@ -51,6 +52,7 @@
   padding-top: 5%;
   padding-left: 30%;
   height: 20%;
+  margin-left: 5%;
 }
 
 .artist-head #head {
@@ -74,6 +76,7 @@
   justify-content: space-evenly;
   width: 100%;
   height: 100%;
+  z-index: 5;
 }
 
 /* .artists .artists-box .artists-ui-card {
@@ -122,15 +125,16 @@
 }
 .card .details {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -10%;
+  left: -10%;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.1);
   transition: .5s;
-  transform-origin: left;
+  transform-origin: center;
   transform: perspective(2000px) rotateY(-90deg);
 }
+
 .card:hover .details {
   transform: perspective(2000px) rotateY(0deg);
 }
@@ -168,4 +172,44 @@
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
+}
+
+@media (max-width: 450px) {
+  .artists {
+    height: 105vh;
+    position: relative;
+    background-size: auto;
+  }
+  .artist-head {
+    margin-top: 25%;
+    margin-left: -10%;
+    margin-bottom: -10%;
+    transform: scale(0.9,0.9);
+  }
+  .artist-head #head {
+    margin-top: 17%;
+  }
+
+  .artist-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 1.60rem;
+    transform: scale(0.75, 0.75);
+  }
+  .swas-artist, .swas-artist2, .swas-artist3, .swas-artist4 {
+    width: 50%;
+  }
+
+  .swas-artist, .swas-artist2 {
+    margin-top: 20%;
+  }
+
+  .swas-artist3, .swas-artist4 {
+    margin-bottom: 15%;
+  }
+
+  /* .swas-artist {
+    margin-left: -20%;
+  } */
 }
