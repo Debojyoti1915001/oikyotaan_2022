@@ -6,7 +6,6 @@
   /* font-size: 26px; */
 }
 
-
 .sponsor-img{
     width:180px;
     height:180px;   
@@ -28,7 +27,6 @@
     position: absolute;
     width:240px;
     height:240px;
-    left:0;
 }
 .dholak-text {
   font-size: 50px;
@@ -44,27 +42,29 @@
 #sponsor-swastik-1 {
   height: 100px;
   width: 200px;
+  z-index: 5;
 }
 #sponsor-swastik-2 {
   height: 100px;
   width: 200px;
   transform: scaleX(-1);
+  z-index: 5;
 }
 .sponsor-components
 {
-  transform: translate(-5%,-70%);
+  transform: translate(-10%,-50%);
 }
   
 .sponsor-outer-left{
   margin-left: 40px;
   float:left;
-  height:70%;
+  height:100%;
 }
  
 .sponsor-outer-right{
   margin-right: 40px;
   float:right;
-  height:70%;
+  height:100%;
   transform: scaleX(-1);
 }
 .sponsor-box{
@@ -76,7 +76,7 @@
   width: 100%;
   height: 100%;
 }
-.sponsar-card{
+.sponsor-card{
   transform: translate(-5%,-70%);
   width:250px;
   height:250px;
@@ -162,6 +162,41 @@ h3{
   font-size: "3";
 } */
 
-@media (max-width: 400px) {
-  
+@media (max-width: 450px) {
+  .sponsor-head {
+    width: 100%;
+    transform: scale(0.75, 0.75);
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+    margin-left: -7%;
+    z-index: 5;
+  }
+
+  .sponsor-outer-left{
+    margin-left: 2%;
+    float:left;
+    height:100%;
+    margin-top: -50%;
+    z-index: 2;
+    width: 30%;
+    margin-left: -10%;
+  }
+   
+  .sponsor-outer-right{
+    margin-right: 2%;
+    float:right;
+    height:100%;
+    transform: scaleX(-1);
+    margin-top: -50%;
+    z-index: 2;
+    width: 30%;
+    margin-right: -10%;
+  }
+  .sponsor-amul {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    margin-top: -25%;
+  }
 }

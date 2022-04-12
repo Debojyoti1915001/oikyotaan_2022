@@ -1,12 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="gallery_container">div.</div>
-  </body>
+<html>
+
+<head>
+  <title>Teaser Video</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <!-- <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'> -->
+  <link rel="stylesheet" href="/css/gallery.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/navbar.css">
+</head>
+
+<body>
+  <!-- //Sayannheeta's  -->
+  <section class="navbar">
+    <%- include("partials/navbar") %>
+  </section>
+  <div class="gallery-background">
+    <div class="gallery-clouds">
+      <img src="/img/landing/Bg Clouds.svg" alt="" srcset="">
+    </div>
+    <img class="left-cloud" src="/img/landing/Left Big Cloud.svg" alt="Left Big Clouds" />
+    <img class="right-cloud" src="/img/landing/Right Big Cloud.svg" alt="Right Big Cloud" />
+    <div class="slider-rotate" id="slider">
+      <div class="slider-rotate__container">
+
+        <!-- ITENS -->
+        <div class="slider-rotate__item "><span class="position">1</span><img src="/img/magazine/cover.png">
+        </div>
+        <div class="slider-rotate__item"><span class="position">2</span><img src="/img/magazine/cover.png"></div>
+        <div class="slider-rotate__item"><span class="position">3</span><img src="/img/magazine/cover.png"></div>
+        <div class="slider-rotate__item"><span class="position">4</span><img src="/img/magazine/cover.png"></div>
+        <div class="slider-rotate__item"><span class="position">5</span><img src="/img/magazine/cover.png"></div>
+        <div class="slider-rotate__item"><span class="position">6</span><img src="/img/magazine/cover.png"></div>
+        <div class="slider-rotate__item"><span class="position">7</span><img src="/img/magazine/cover.png"></div>
+        <div class="slider-rotate__item"><span class="position">8</span><img src="/img/magazine/cover.png"></div>
+        <div class="slider-rotate__item"><span class="position">9</span><img src="/img/magazine/cover.png"></div>
+        <div class="slider-rotate__item"><span class="position">10</span><img src="/img/magazine/cover.png">
+        </div>
+        <div class="slider-rotate__item"><span class="position">11</span><img src="/img/magazine/cover.png">
+        </div>
+        <div class="slider-rotate__item"><span class="position">12</span><img src="/img/magazine/cover.png">
+        </div>
+        <div class="slider-rotate__item"><span class="position">13</span><img src="/img/magazine/cover.png">
+        </div>
+
+        <!-- NAVIGATION -->
+        <span class="slider-rotate__arrow slider-rotate__arrow--right js-slider-rotate-arrow" data-action="next"><i
+            class="fa fa-arrow-right"></i></span>
+        <span class="slider-rotate__arrow slider-rotate__arrow--left js-slider-rotate-arrow" data-action="prev"><i
+            class="fa fa-arrow-left "></i></span>
+
+      </div>
+    </div>
+
+
+    <!-- ** -->
+    <div class="lft-portion">
+      <!-- Events portion................. -->
+
+
+      <!-- ** -->
+    </div>
+
+  </div>
+  </div>
+  <!-- partial -->
+
+  <!--     
+    //Abhinav's -->
+  <div class="gallery-teaser">
+    <div class="text">
+
+      <h1 class="gallery-bengali-text">টিজার ভিডিও
+        <hr>
+        <h2 class="gallery-english-text">Teaser Video</h2>
+        <i class="fa fa-calendar gallery-calendar-icon" aria-hidden="true"></i>
+        <h3 class="gallery-date">17/04/2022</h3>
+      </h1>
+      <img class="gallery-rangoli1" src="/img/About/about_rangoli.svg" alt="">
+      <img class="gallery-rangoli2" src="/img/About/about_rangoli.svg" alt="">
+      <img class="gallery-rangoli3" src="/img/About/about_rangoli.svg" alt="">
+      <img class="gallery-rangoli4" src="/img/About/about_rangoli.svg" alt="">
+    </div>
+    <div class="video">
+
+      <video src="../public/video/video.mp4" controls loop muted poster></video>
+    </div>
+  </div>
+  <h1 class="gallery-bengali-heading">গ্যালারি ইমেজ
+    <hr class="gallery-heading-line">
+    <h2 class="gallery-english-heading">Gallery Images</h2>
+  </h1>
+  <!-- //Abhranil's -->
+  <div class="gallery">
+    <figure class="gallery__item gallery__item-1">
+      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 1">
+    </figure>
+
+    <figure class="gallery__item gallery__item-2">
+      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 2">
+    </figure>
+
+    <figure class="gallery__item gallery__item-3">
+      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 3">
+    </figure>
+
+    <figure class="gallery__item gallery__item-4">
+      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 4">
+    </figure>
+
+    <figure class="gallery__item gallery__item-5">
+      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 5">
+    </figure>
+
+    <figure class="gallery__item gallery__item-6">
+      <img src="/img/Artist/ananya.jpeg" class="gallery__img" alt="Image 6">
+    </figure>
+
+    <figure class="gallery__item gallery__item-7">
+      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 7">
+    </figure>
+
+    <figure class="gallery__item gallery__item-8">
+      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 8">
+    </figure>
+
+    <figure class="gallery__item gallery__item-9">
+      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 9">
+    </figure>
+
+    <figure class="gallery__item gallery__item-10">
+      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 10">
+    </figure>
+    <figure class="gallery__item gallery__item-11">
+      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 11">
+    </figure>
+    <figure class="gallery__item gallery__item-12">
+      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 12">
+    </figure>
+    <figure class="gallery__item gallery__item-13">
+      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 13">
+    </figure>
+  </div>
+
+  <%- include("partials/footer") %>
+
+
+    <!-- js for carousel -->
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src="/js/gallery.js"></script>
+</body>
+
 </html>
