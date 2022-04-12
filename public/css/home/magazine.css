@@ -1,20 +1,19 @@
-
 .magazine {
   background-image: url("./bgimg/magazine_background.svg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   height: 170vh;
-    font-family: "Li Shadhinata";
-    overflow: hidden;
-    box-sizing: border-box;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    z-index: 10000;
-    text-align: center;
-} 
+  font-family: "Li Shadhinata";
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10000;
+  text-align: center;
+}
 
 .magazine .magazine_heading {
   font-size: 5em;
@@ -67,7 +66,7 @@
   height: 70%;
   justify-content: center;
   width: 100%;
-  margin-left:-16%;
+  margin-left: -16%;
 }
 
 .aspect {
@@ -86,7 +85,7 @@
 }
 
 .flipbook {
-  margin-top:100px;
+  margin-top: 100px;
   height: 70%;
   transition: margin-left 0.25s ease-out;
   width: 90%;
@@ -108,11 +107,10 @@
   height: 100%;
 }
 
-
 /*******************************Mobile Viewport******************************************/
 @media only screen and (max-width: 450px) {
   .magazine {
-    height:117vh;
+    height: 117vh;
   }
   /* .wrapper {
     align-items: center;
@@ -126,16 +124,44 @@
     height: 100%;
     width: 100%;
   } */
-  .aspect {
-    padding-bottom: 150%;
-    padding-left: 200%;
-    margin-left: 32%;
-  }
   .magazine .magazine_center_heading {
-    top: 25%;
-    left: 50%;
-    font-size: 2rem;
-    letter-spacing: 1rem;
+    top: 50%;
+    font-size: 4rem;
+    letter-spacing: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
   }
-
+  .magazine {
+    background-image: url("./bgimg/About_us_responsive_bg.png");
+  }
+  .magazine .magazine_heading {
+    margin-top: -9.5rem;
+  }
+  .magazine {
+    height: 77vh;
+    overflow: hidden;
+  }
+  .magazine_button {
+    bottom: 40px;
+  }
+  .magazine .magazine_heading {
+    font-size: 4em;
+  }
+  .aspect {
+    height: 70%;
+  }
+  .magazine .magazine_heading {
+    margin-top: 0;
+  }
+  .flipbook {
+    margin-top: 0px;
+  }
+  .magazine_button {
+    position: absolute;
+    margin: 0 0;
+  }
+  .magazine_button .magazine_btn_link {
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+  }
 }

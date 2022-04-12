@@ -99,7 +99,7 @@
   justify-content: center;
   background-color: #350109;
 }
-/********Media Queries*********/
+/*********************Media Queries****************************/
 .footerMobile {
   font-family: century-gothic, sans-serif;
   background-image: url("../img/footer/Footer BG.svg");
@@ -119,6 +119,7 @@
   max-width: 1rem;
   margin-right: 4%;
 }
+
 .Oikyotan_logo {
   max-width: 13rem;
 }
@@ -148,5 +149,4 @@
   .footerMobile {
     display: block;
   }
-
 }
