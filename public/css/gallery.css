@@ -57,7 +57,7 @@ body {
 .slider-rotate {
   margin: auto;
   width: 60%;
-  top: 20%;
+  top: 15%;
   /* overflow:hidden; */
   /* float:right; */
   position: absolute;
@@ -73,6 +73,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
+  left: 5%;
   /* margin-left:100px; */
 }
 
@@ -172,7 +173,7 @@ body {
   width: 50px;
   height: 50px;
   position: absolute;
-  top: 90%;
+  top: 50%;
   cursor: pointer;
   color: rgb(173, 150, 18);
 }
@@ -181,11 +182,11 @@ body {
 }
 
 .slider-rotate__container .slider-rotate__arrow.slider-rotate__arrow--left {
-  left: 40%;
+  left: -20%;
 }
 
 .slider-rotate__container .slider-rotate__arrow.slider-rotate__arrow--right {
-  right: 30%;
+  right: -30%;
 } 
 .gallery-background
 {
@@ -197,7 +198,8 @@ body {
 .gallery-clouds img
 {
   position: absolute;
-  top: 20%;
+  top: 15%;
+  left: 5%;
   width: 90vw;
   margin-bottom: 5%;
 }
@@ -215,30 +217,17 @@ body {
     width: 100%;
 
 }
-.video{
-    height: 70%;
-    margin-top: 10%;
+
+#teaserVid {
+  height: 80%;
+  width: 80%;
+  padding-left: 20%;
 }
+
 .text{
     margin-top:10%;
     margin-bottom:10% ;
     height: 10%;
-}
-.gallery-teaser video{
-    
-    /* position: absolute; */
-    margin: 10%;
-    width: 80%;
-    height: 60%;
-    /* left: 25%; */
-    /* top: 29%; */
-    
-}
-
-.gallery{
-    /* width:100%; */
-    height: 100vh;
-    margin: 10%;
 }
 
 .gallery-bengali-text {
@@ -284,26 +273,30 @@ hr{
     position: absolute  ;
     width: 30%;
     right: 32%;
-    top: 140%;
+    top: 105%;
+    height: 50%;
 }
 
 .gallery-rangoli2 {
     position: absolute;
     width: 30%;
     right: -15%;
+    height: 50%;
 }
 
 .gallery-rangoli3 {
     position: absolute;
     width: 30%;
     left: -15%;
+    height: 50%;
 }
 
 .gallery-rangoli4 {
     position: absolute;
     width: 30%;
-    top: 250%;
+    top: 265%;
     right: 32%;
+    height: 50%;
 }
 
 
@@ -332,24 +325,38 @@ hr{
 
 } */
 
-figure{
+figure {
     margin: 0.5rem;
 }
+
+.gallery-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(11, 7vw);
-    grid-gap: 0.1px;
-    min-height: 200vh;
-    margin-bottom: 0;
+  height: 100vh;
+  /* margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 0; */
+  margin: 10% 0 10% 10%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(15, 7vw);
+  grid-gap: 0.1px;
+  min-height: 200vh;
+  
 }
 
 .gallery-bengali-heading {
     color: yellow;
     margin-left:10%; 
     font-size: 3rem;
-    margin-top: 27%;
+    margin-top: 20%;
     font-family: "Li Shadhinata";
+    /* margin-top: 10%; */
 }
 
 .gallery-english-heading {
@@ -362,95 +369,95 @@ figure{
 .gallery__img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 .gallery__item-1 {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
 } 
 
 .gallery__item-2 {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row-start: 3;
-    grid-row-end: 6;
+    grid-row-end: 9;
 } 
 
 .gallery__item-3 {
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 6;
-    grid-row-end: 8;
+    grid-column-end: 4;
+    grid-row-start: 9;
+    grid-row-end: 11;
 } 
 
 .gallery__item-4 {
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 8;
-    grid-row-end: 10;
+    grid-column-end: 4;
+    grid-row-start: 11;
+    grid-row-end: 13;
 }
 
 .gallery__item-5 {
     grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 10;
-    grid-row-end:12;
+    grid-column-end: 7;
+    grid-row-start: 13;
+    grid-row-end: 15;
 } 
 
 .gallery__item-6 {
-    grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 7;
     grid-row-start: 1;
-    grid-row-end:4;
+    grid-row-end:5;
 } 
 
 .gallery__item-7 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 4;
-    grid-row-end:6;
-} 
-
-.gallery__item-8 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start:6;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 5;
     grid-row-end:8;
 } 
 
-.gallery__item-9 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 8;
+.gallery__item-8 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start:8;
     grid-row-end:10;
 } 
 
-.gallery__item-10 {
-    grid-column-start: 5;
-    grid-column-end: 7;
+.gallery__item-9 {
+    grid-column-start: 4;
+    grid-column-end: 10;
     grid-row-start: 10;
-    grid-row-end:12;
+    grid-row-end:13;
+} 
+
+.gallery__item-10 {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end:3;
 } 
 
 .gallery__item-11{
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end:3;
-}
-
-.gallery__item-12{
-    grid-column-start: 5;
-    grid-column-end: 7;
+    grid-column-start: 7;
+    grid-column-end: 10;
     grid-row-start: 3;
     grid-row-end:5;
 }
 
-.gallery__item-13{
-    grid-column-start: 5;
-    grid-column-end: 7;
+.gallery__item-12{
+    grid-column-start: 7;
+    grid-column-end: 10;
     grid-row-start: 5;
     grid-row-end:10;
+}
+
+.gallery__item-13{
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 13;
+    grid-row-end:15;
 }
