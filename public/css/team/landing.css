@@ -7,10 +7,10 @@
 .team-landing .cloud{
   position: absolute;
   top: 15%;
-  animation: cloud_event 30s linear infinite;
-  -webkit-animation: cloud_event 30s linear infinite;
-  -moz-animation: cloud_event 30s linear infinite;
-  -o-animation: cloud_event 30s linear infinite;
+  animation: cloud_event 80s linear infinite;
+  -webkit-animation: cloud_event 80s linear infinite;
+  -moz-animation: cloud_event 80s linear infinite;
+  -o-animation: cloud_event 80s linear infinite;
 }
 
 .team-landing .landing-bg{
@@ -38,7 +38,7 @@
   /* NEED TO CHANGE THE FONT */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: absolute;
-  bottom: 2%;
+  top: 85%;
   color: #edf178;
   font-size: 5rem;
   width: 100%;
@@ -55,7 +55,7 @@
 
 .team-landing .design{
   position: absolute;
-  bottom: -27%;
+  top: 87%;
   z-index: 1;
 }
 
@@ -70,7 +70,7 @@
 /* ANIMATIONS */
 @keyframes cloud_event {
   0% {
-    left: 0;
+    left: -100%;
   }
   100% {
     left: 100%;
@@ -78,7 +78,7 @@
 }
 @-webkit-keyframes cloud_event {
   0% {
-    left: 0;
+    left: -100%;
   }
   100% {
     left: 100%;
@@ -86,7 +86,7 @@
 }
 @-moz-keyframes cloud_event {
   0% {
-    left: 0;
+    left: -100%;
   }
   100% {
     left: 100%;
@@ -94,7 +94,7 @@
 }
 @-o-keyframes cloud_event {
   0% {
-    left: 0;
+    left: -100%;
   }
   100% {
     left: 100%;
