@@ -42,17 +42,6 @@
   position: relative;
 }
 
-.team-main .profile-section .profile .profile-img img.rangoli{
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  animation-name: rangoli;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
 .team-main .profile-section .profile .profile-img img.alpona{
   width: 100%;
   transform: translateZ(10px);
@@ -102,5 +91,58 @@
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
+  }
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 450px) {
+  .team-main{
+    padding: 2rem 0rem;
+  }
+
+  .team-main .heading h1{
+    font-size: 2.5rem;
+  }
+
+  .team-main .heading img{
+    bottom: -100%;
+    width: 70%;
+  }
+
+  .team-main .profile-section .profile{
+    width: 42%;
+    margin: 0 1rem;
+  }
+
+  .team-main .profile-section .profile .profile-name{
+    margin: 0.5rem 0;
+  }
+
+  .team-main .profile-section .profile .profile-name .bengali-name{
+    font-size: 1.5rem;
+  }
+
+  .team-main .profile-section .profile .profile-name .english-name{
+    font-size: 1rem;
+  }
+
+  .team-main .team-members-list{
+    margin: 0;
+  }
+
+  .team-main .team-members-list .heading{
+    margin: 0;
+    margin-left: 2rem;
+    padding-left: 2rem;
+  }
+
+  .team-main .team-members-list .heading .big-heading{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .team-main .team-members-list .heading .small-heading{
+    font-size: 1rem;
   }
 }
