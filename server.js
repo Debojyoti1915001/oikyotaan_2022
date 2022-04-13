@@ -24,7 +24,6 @@ app
 
 // ROUTES DEFINITION
 app.use("/", homeRoutes);
-
 app.listen(PORT, () => {
   console.log(`SERVER RUNNING AT PORT ${PORT}`);
 });
