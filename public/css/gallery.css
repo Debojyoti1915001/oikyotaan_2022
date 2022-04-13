@@ -14,12 +14,13 @@
 
 body {
   background-color: #52021f;
-  height: 400vh;
+  /* height: 400vh; */
+  height: auto;
 }
 
-.navbar{
+/* .navbar{
     font-family: "Berkshire Swash", sans-serif;
-  }
+  } */
 
 .left-cloud {
     width: 40%;
@@ -60,7 +61,7 @@ body {
   /* overflow:hidden; */
   /* float:right; */
   position: absolute;
-  background-color: rgb(243, 189, 11);
+  /* background-color: rgb(243, 189, 11); */
   z-index: 2;
   left: 15%;
   margin-top: 3.5%;
@@ -68,7 +69,7 @@ body {
 
 .slider-rotate__container {
   margin: 0 auto;
-  float:right;
+  /* float:right; */
   position: absolute;
   width: 100%;
   height: 100%;
@@ -78,7 +79,7 @@ body {
 
 .slider-rotate__container {
   position: relative;
-  width: 1000px;
+  /* width: 1000px; */
   height: 600px;
   visibility: hidden;
 }
@@ -100,22 +101,22 @@ body {
   transition: all 0.3s ease;
 }
 .slider-rotate__item img{
-  height:450px; 
+  height:460px; 
   width: 300px;
 
 }
 .slider-rotate__item.slider-rotate__item--next {
-  left: 74%;
+  left: 86%;
 }
 
 .slider-rotate__item.slider-rotate__item--prev {
   
-  left: 26%;
+  left: 14%;
 }
 
 .slider-rotate__item.slider-rotate__item--prev,
 .slider-rotate__item.slider-rotate__item--next {
-  opacity: 0.7;
+  opacity: 1.7;
   z-index: 2;
   -webkit-filter: blur(3px);
   -moz-filter: blur(3px);
@@ -125,11 +126,11 @@ body {
 }
 
 .slider-rotate__item.slider-rotate__item--next-2 {
-  left: 90%;
+  left: 109%;
 }
 
 .slider-rotate__item.slider-rotate__item--prev-2 {
-  left: 10%;
+  left:-9%;
 }
 
 .slider-rotate__item.slider-rotate__item--next-2,
@@ -166,22 +167,15 @@ body {
   filter: blur(0);
 }
 
-
 .slider-rotate__container .slider-rotate__arrow {
   display: inline-block;
   width: 50px;
   height: 50px;
   position: absolute;
   top: 90%;
-  left: 64%;
   cursor: pointer;
   color: rgb(173, 150, 18);
 }
-
-/* .slider-rotate__container .slider-rotate__arrow:hover {
-  background: #ffffff;
-} */
-
 .slider-rotate__container .slider-rotate__arrow:hover i {
   color: #eaee85;
 }
@@ -191,8 +185,8 @@ body {
 }
 
 .slider-rotate__container .slider-rotate__arrow.slider-rotate__arrow--right {
-  right: 40%;
-}
+  right: 30%;
+} 
 .gallery-background
 {
   background-color: rgb(245, 190, 10);
@@ -290,7 +284,7 @@ hr{
     position: absolute  ;
     width: 30%;
     right: 32%;
-    top: 105%;
+    top: 140%;
 }
 
 .gallery-rangoli2 {
