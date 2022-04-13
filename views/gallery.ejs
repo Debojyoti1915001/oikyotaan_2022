@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="/css/index.css" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="http://fonts.cdnfonts.com/css/samarkan" rel="stylesheet" />
-    <link rel="stylesheet" href="/fornts/Unicode/Li-Shadhinata-2-Unicode.ttf" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
-      rel="stylesheet"
-    />
-    <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
-    <link rel="stylesheet" href="/css/gallery.css">
+
+<head>
+  <link rel="stylesheet" href="/css/index.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="http://fonts.cdnfonts.com/css/samarkan" rel="stylesheet" />
+  <link rel="stylesheet" href="/fornts/Unicode/Li-Shadhinata-2-Unicode.ttf" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet" />
+  <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="/css/gallery.css">
 </head>
 
 <body>
-  <section class="navbar"><%- include("partials/navbar") %></section>
+  <section class="navbar">
+    <%- include("partials/navbar") %>
+  </section>
   <section class="navbar-mobile">
     <%- include("partials/navbar-mobile") %>
   </section>
@@ -58,7 +58,7 @@
   </div>
 
 
- 
+
   <div class="gallery-teaser">
     <div class="text">
 
@@ -73,65 +73,64 @@
       <img class="gallery-rangoli3" src="/img/About/about_rangoli.svg" alt="">
       <img class="gallery-rangoli4" src="/img/About/about_rangoli.svg" alt="">
     </div>
-    <div class="video">
-
-      <video src="../public/video/video.mp4" controls loop muted poster></video>
-    </div>
+    <video id="teaserVid" src="/video/teaserVideo.mp4" controls loop muted poster></video>
   </div>
   <h1 class="gallery-bengali-heading">গ্যালারি ইমেজ
     <hr class="gallery-heading-line">
     <h2 class="gallery-english-heading">Gallery Images</h2>
   </h1>
   <!-- //Abhranil's -->
-  <div class="gallery">
-    <figure class="gallery__item gallery__item-1">
-      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 1">
-    </figure>
+  <div class="gallery-parent">
+    <div class="gallery">
+      <figure class="gallery__item gallery__item-1">
+        <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 1">
+      </figure>
 
-    <figure class="gallery__item gallery__item-2">
-      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 2">
-    </figure>
+      <figure class="gallery__item gallery__item-2">
+        <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 2">
+      </figure>
 
-    <figure class="gallery__item gallery__item-3">
-      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 3">
-    </figure>
+      <figure class="gallery__item gallery__item-3">
+        <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 3">
+      </figure>
 
-    <figure class="gallery__item gallery__item-4">
-      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 4">
-    </figure>
+      <figure class="gallery__item gallery__item-4">
+        <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 4">
+      </figure>
 
-    <figure class="gallery__item gallery__item-5">
-      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 5">
-    </figure>
+      <figure class="gallery__item gallery__item-5">
+        <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 5">
+      </figure>
 
-    <figure class="gallery__item gallery__item-6">
-      <img src="/img/Artist/ananya.jpeg" class="gallery__img" alt="Image 6">
-    </figure>
+      <figure class="gallery__item gallery__item-6">
+        <img src="/img/Artist/ananya.jpeg" class="gallery__img" alt="Image 6">
+      </figure>
 
-    <figure class="gallery__item gallery__item-7">
-      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 7">
-    </figure>
+      <figure class="gallery__item gallery__item-7">
+        <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 7">
+      </figure>
 
-    <figure class="gallery__item gallery__item-8">
-      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 8">
-    </figure>
+      <figure class="gallery__item gallery__item-8">
+        <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 8">
+      </figure>
 
-    <figure class="gallery__item gallery__item-9">
-      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 9">
-    </figure>
+      <figure class="gallery__item gallery__item-9">
+        <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 9">
+      </figure>
 
-    <figure class="gallery__item gallery__item-10">
-      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 10">
-    </figure>
-    <figure class="gallery__item gallery__item-11">
-      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 11">
-    </figure>
-    <figure class="gallery__item gallery__item-12">
-      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 12">
-    </figure>
-    <figure class="gallery__item gallery__item-13">
-      <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 13">
-    </figure>
+      <figure class="gallery__item gallery__item-10">
+        <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 10">
+      </figure>
+      <figure class="gallery__item gallery__item-11">
+        <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 11">
+      </figure>
+      <figure class="gallery__item gallery__item-12">
+        <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 12">
+      </figure>
+      <figure class="gallery__item gallery__item-13">
+        <img src="/img/Artist/aces.jpeg" class="gallery__img" alt="Image 13">
+      </figure>
+    </div>
   </div>
 
   <%- include("partials/footer") %>
