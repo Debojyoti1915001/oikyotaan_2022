@@ -47,11 +47,15 @@
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
+  animation-name: rangoli;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .team-main .profile-section .profile .profile-img img.alpona{
   width: 100%;
-  z-index: 10;
+  transform: translateZ(10px);
 }
 
 .team-main .profile-section .profile .profile-name{
@@ -87,4 +91,16 @@
 
 .team-main .team-members-list .heading .small-heading{
   font-size: 1.4rem;
+}
+
+/* ANIMATIONS */
+@keyframes rangoli {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
