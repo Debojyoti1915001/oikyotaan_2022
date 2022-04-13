@@ -7,7 +7,7 @@
 .about_box
 {
   position: relative;
- 
+  
 }
 .about_heading {
   position: absolute;
@@ -39,7 +39,7 @@
   font-size: 1.75em;
   font-family: sans-serif;
 }
-.about_hanging_1
+.about_hanging_1 
 {
   position: absolute;
   top: -7%;

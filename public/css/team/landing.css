@@ -1,0 +1,102 @@
+.team-landing{
+  height: 100vh;
+  position: relative;
+  background-color: #f59b27;
+}
+
+.team-landing .cloud{
+  position: absolute;
+  top: 15%;
+  animation: cloud_event 80s linear infinite;
+  -webkit-animation: cloud_event 80s linear infinite;
+  -moz-animation: cloud_event 80s linear infinite;
+  -o-animation: cloud_event 80s linear infinite;
+}
+
+.team-landing .landing-bg{
+  width: 75%;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.team-landing .left-cloud{
+  position: absolute;
+  top: 0;
+  width: 40%;
+}
+
+.team-landing .right-cloud{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+}
+
+.team-landing .heading{
+  /* NEED TO CHANGE THE FONT */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 85%;
+  color: #edf178;
+  font-size: 5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.team-landing .rectangle{
+  background-color: #52021f;
+  width: 100%;
+  height: 8vh;
+  position: absolute;
+  bottom: 0;
+}
+
+.team-landing .design{
+  position: absolute;
+  top: 87%;
+  z-index: 1;
+}
+
+.team-landing .design.design-left{
+  left: 8%;
+}
+
+.team-landing .design.design-right{
+  right: 8%;
+}
+
+/* ANIMATIONS */
+@keyframes cloud_event {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@-webkit-keyframes cloud_event {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@-moz-keyframes cloud_event {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@-o-keyframes cloud_event {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
