@@ -1,13 +1,11 @@
 .about {
   height: 100vh;
-  color: #F35413;
+  color: #f35413;
   z-index: 30;
   /* background-color: #EA4C31; */
 }
-.about_box
-{
+.about_box {
   position: relative;
-  
 }
 .about_heading {
   position: absolute;
@@ -36,24 +34,21 @@
   text-align: justify;
   width: 75%;
   padding-left: 25%;
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-family: sans-serif;
 }
-.about_hanging_1 
-{
+.about_hanging_1 {
   position: absolute;
   top: -7%;
   left: 15%;
   /* height: 20%; */
 }
-.about_hanging_2
-{
+.about_hanging_2 {
   position: absolute;
   top: -7%;
   left: 71%;
 }
-.about_rangoli_1
-{
+.about_rangoli_1 {
   position: absolute;
   top: 10%;
   left: -15%;
@@ -62,16 +57,14 @@
   animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-
 }
-.about_rangoli_2
-{
+.about_rangoli_2 {
   display: flex;
   position: absolute;
   top: 10%;
   right: -15%;
   height: 30%;
-  animation-name: rotation ;
+  animation-name: rotation;
   animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -90,38 +83,38 @@
 
 /*******************************Mobile Viewport******************************************/
 @media only screen and (max-width: 450px) {
-  .about_rangoli_2{
+  .about_rangoli_2 {
     display: none;
-    
   }
-  .about_rangoli_1{
+  .about_rangoli_1 {
     top: 35%;
     left: 19%;
     height: 20%;
   }
-  .about_hanging_1{
+  .about_hanging_1 {
     top: -3%;
     left: 0%;
     height: 17%;
   }
-  .about_hanging_2{
+  .about_hanging_2 {
     top: -3%;
     left: 80%;
     height: 17%;
   }
 
-  .about_heading{
+  .about_heading {
     left: 28%;
     font-size: 3em;
   }
 
-  .about_underline{
+  .about_underline {
     top: 10%;
     width: 11%;
   }
-  .about_text_box{
+  .about_text_box {
     top: 13%;
-    width: 78%;
+    width: 90%;
     font-size: 1em !important;
+    padding-left: 11%;
   }
 }
