@@ -8,10 +8,11 @@ import path from "path";
 
 // ROUTE IMPORTS
 import homeRoutes from "./routes/home.js";
-
+import moment from "moment";
 // VARIABLES
 const app = express();
 const PORT = process.env.PORT || 3000;
+
 
 // CONFIGURATION
 app.set("view engine", "ejs").set("views", path.join(path.resolve(), "views"));
