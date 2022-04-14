@@ -238,4 +238,13 @@
     .slider-rotate__arrow.slider-rotate__arrow--right {
     right: 29%;
   }
+
+  .carousal .slider-rotate__item .carousal-modal{
+    bottom: 20%;
+    height: 80px;
+  }
+
+  .carousal .slider-rotate__item .carousal-modal .icons{
+    height: 7vh;
+  }
 }

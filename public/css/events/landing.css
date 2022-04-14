@@ -16,10 +16,10 @@
 #home .cloud {
   position: absolute;
   top: 5%;
-  animation: cloud_event 30s linear infinite;
-  -webkit-animation: cloud_event 30s linear infinite;
-  -moz-animation: cloud_event 30s linear infinite;
-  -o-animation: cloud_event 30s linear infinite;
+  animation: cloud_event 30s linear infinite reverse;
+  -webkit-animation: cloud_event 30s linear infinite reverse;
+  -moz-animation: cloud_event 30s linear infinite reverse;
+  -o-animation: cloud_event 30s linear infinite reverse;
 }
 
 @keyframes cloud_event {
