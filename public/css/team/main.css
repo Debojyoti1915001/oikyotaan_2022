@@ -1,23 +1,22 @@
-.team-main{
+.team-main {
   background-color: #52021f;
   padding: 5rem 2rem;
   position: relative;
   color: #edf178;
 }
 
-
-.team-main .heading{
+.team-main .heading {
   text-align: center;
   position: relative;
   margin: 4rem 0;
 }
 
-.team-main .heading h1{
+.team-main .heading h1 {
   font-size: 3.5rem;
   font-family: "Samarkan", sans-serif;
 }
 
-.team-main .heading img{
+.team-main .heading img {
   position: absolute;
   bottom: -110%;
   left: 50%;
@@ -25,7 +24,7 @@
   width: 25%;
 }
 
-.team-main .profile-section{
+.team-main .profile-section {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -33,52 +32,55 @@
   margin: 5rem 0;
 }
 
-.team-main .profile-section .profile{
+.team-main .profile-section .profile {
   width: 25%;
   margin: 0 2rem;
 }
 
-.team-main .profile-section .profile .profile-img{
+.team-main .profile-section .profile .profile-img {
   position: relative;
 }
 
-.team-main .profile-section .profile .profile-img img.alpona{
+.team-main .profile-section .profile .profile-img img.alpona {
   width: 100%;
   transform: translateZ(10px);
 }
 
-.team-main .profile-section .profile .profile-name{
+.team-main .profile-section .profile .profile-name {
   font-family: "Berkshire Swash", sans-serif;
   margin: 2rem 0;
 }
 
-.team-main .profile-section .profile .profile-name span{
+.team-main .profile-section .profile .profile-name span {
   display: block;
   text-align: center;
   width: 100%;
 }
 
-.team-main .profile-section .profile .profile-name .bengali-name{
+.team-main .profile-section .profile .profile-name .bengali-name {
   font-size: 3rem;
 }
 
-.team-main .team-members-list{
+.team-main .team-members-list {
   margin-top: 2rem;
   margin-left: 4rem;
 }
 
-.team-main .team-members-list .heading{
+.team-main .team-members-list .heading {
   border-left: 1.5vw solid #edf178;
   padding-left: 4rem;
   text-align: left;
+  margin-top: 23vh;
 }
 
-.team-main .team-members-list .heading .big-heading{
+.team-main .team-members-list .heading .big-heading {
   font-size: 4rem;
   margin-bottom: 1.2rem;
+  margin-left: 2vh;
 }
 
-.team-main .team-members-list .heading .small-heading{
+.team-main .team-members-list .heading .small-heading {
+  margin-left: 2vh;
   font-size: 1.4rem;
 }
 
@@ -97,52 +99,52 @@
 /* MEDIA QUERY */
 
 @media only screen and (max-width: 450px) {
-  .team-main{
+  .team-main {
     padding: 2rem 0rem;
   }
 
-  .team-main .heading h1{
+  .team-main .heading h1 {
     font-size: 2.5rem;
   }
 
-  .team-main .heading img{
+  .team-main .heading img {
     bottom: -100%;
     width: 70%;
   }
 
-  .team-main .profile-section .profile{
+  .team-main .profile-section .profile {
     width: 42%;
     margin: 0 1rem;
   }
 
-  .team-main .profile-section .profile .profile-name{
+  .team-main .profile-section .profile .profile-name {
     margin: 0.5rem 0;
   }
 
-  .team-main .profile-section .profile .profile-name .bengali-name{
+  .team-main .profile-section .profile .profile-name .bengali-name {
     font-size: 1.5rem;
   }
 
-  .team-main .profile-section .profile .profile-name .english-name{
+  .team-main .profile-section .profile .profile-name .english-name {
     font-size: 1rem;
   }
 
-  .team-main .team-members-list{
+  .team-main .team-members-list {
     margin: 0;
   }
 
-  .team-main .team-members-list .heading{
+  .team-main .team-members-list .heading {
     margin: 0;
     margin-left: 2rem;
     padding-left: 2rem;
   }
 
-  .team-main .team-members-list .heading .big-heading{
+  .team-main .team-members-list .heading .big-heading {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
-  
-  .team-main .team-members-list .heading .small-heading{
+
+  .team-main .team-members-list .heading .small-heading {
     font-size: 1rem;
   }
 }
