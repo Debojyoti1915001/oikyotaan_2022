@@ -67,6 +67,15 @@
   right: 8%;
 }
 
+.team-landing .mobile-design{
+  position: absolute;
+  width: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  display: none;
+}
+
 /* ANIMATIONS */
 @keyframes cloud_event {
   0% {
@@ -98,5 +107,32 @@
   }
   100% {
     left: 100%;
+  }
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 450px) {
+  .team-landing .design{
+    display: none;
+  }
+
+  .team-landing .landing-bg{
+    width: 125%;
+    top: 40%;
+  }
+
+  .team-landing .rectangle{
+    height: 30vh;
+    bottom: -1px;
+  }
+
+  .team-landing .mobile-design{
+    display: block;
+  }
+
+  .team-landing .heading{
+    font-size: 3rem;
+    top: 72%;
   }
 }

@@ -43,7 +43,7 @@
   font-family: sans-serif;
   padding-left: 4rem;
   line-height: 2rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.2px;
   color: #f7e28f;
   padding-right: 4rem;
   margin-right: 4rem;
@@ -51,6 +51,7 @@
   z-index: 12;
   height: auto;
   width: 165%;
+  margin-top: 6rem;
 }
 
 .events-text-heading {
@@ -66,8 +67,9 @@
   width: 8rem;
   height: 0.2rem;
   box-shadow: inset 0px 0px 100px #f7e28f;
-  top: 30%;
-  left: 18%;
+  top: 35%;
+  left: 16%;
+  right: 0px;
 }
 
 .circle-1 {
@@ -311,7 +313,7 @@
   z-index: 2;
   -webkit-filter: blur(3px);
   -moz-filter: blur(3px);
-  -ms-filter: blur(3px); 
+  -ms-filter: blur(3px);
   -o-filter: blur(3px);
   filter: blur(3px);
 }
@@ -415,17 +417,17 @@
 @media only screen and (max-width: 450px) {
   .slider-rotate__container .slider-rotate__arrow {
     top: 86%;
-}
+  }
   .svg-design {
     position: absolute;
     width: 100%;
     margin: 0 auto;
   }
-  .events-text-body{
+  .events-text-body {
     width: 110%;
   }
   .events-section-1-text {
-    margin-top: 50px;
+    margin-top: 1rem;
   }
   .events_innerDiv {
     flex-direction: column-reverse;
@@ -437,7 +439,7 @@
     line-height: 1.5rem;
     width: 78%;
     padding: 0 4rem;
-    margin-left: 24px;
+    margin-left: 48px;
   }
   .events_inner_leftSide {
     width: 62%;
@@ -490,7 +492,6 @@
     display: none;
   }
   .about_heading {
-    left: 28%;
     font-size: 3em;
   }
   .about_heading_events {
@@ -502,7 +503,8 @@
     font-family: "Berkshire Swash", sans-serif;
     color: #f7e28f;
     font-size: 3em;
-    left: 38%;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .about_underline_events {
     top: 10%;

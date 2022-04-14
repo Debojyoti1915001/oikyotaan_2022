@@ -20,7 +20,6 @@
   top: 50%;
   opacity: 0;
   margin-left: 50px;
-  cursor: pointer;
   -webkit-transform: translateY(-50%) translateX(-50%) scale(0.8);
   -moz-transform: translateY(-50%) translateX(-50%) scale(0.8);
   -ms-transform: translateY(-50%) translateX(-50%) scale(0.8);
@@ -36,6 +35,52 @@
   width: 400px;
   padding: 1rem;
   background-color: #edf178;
+}
+
+.carousal .slider-rotate__item .position{
+  display: none;
+}
+
+.carousal .slider-rotate__item .pic_img{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.carousal .slider-rotate__item .carousal-modal{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 12%;
+  background-color: #edf178;
+  height: 150px;
+  width: 100%;
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.6s;
+}
+
+.carousal .slider-rotate__item:hover .carousal-modal{
+  z-index: 10;
+  opacity: 1;
+}
+
+.carousal .slider-rotate__item .carousal-modal .icons{
+  position: relative;
+  height: 10vh;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+
+.carousal .slider-rotate__item .carousal-modal .icons img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
 }
 
 .carousal .slider-rotate__item.slider-rotate__item--next {
@@ -153,10 +198,40 @@
   .carousal .slider-rotate__item.slider-rotate__item--active {
     margin-top: 1rem;
   }
-  .carousal .slider-rotate__container .slider-rotate__arrow {
-    width: 38px;
+  
+}
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 450px) {
+
+  .carousal .slider-rotate__container {
+    height: 450px;
   }
+
+  .carousal .slider-rotate__item img {
+    padding: 0.7rem;
+  }
+
+  .carousal .slider-rotate__item.slider-rotate__item--prev,
+  .carousal .slider-rotate__item.slider-rotate__item--next {
+    display: none;
+  }
+
+  .carousal .slider-rotate__item.slider-rotate__item--active {
+    display: block;
+  }
+
   .carousal .slider-rotate__arrow i {
-    font-size: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .carousal .slider-rotate__container .slider-rotate__arrow.slider-rotate__arrow--left {
+    left: 28%;
+  }
+  
+  .carousal .slider-rotate__container .slider-rotate__arrow.slider-rotate__arrow--right {
+    right: 29%;
   }
 }
