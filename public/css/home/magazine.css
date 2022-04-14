@@ -1,8 +1,8 @@
 .magazine {
-  background-image: url("./bgimg/magazine_background.svg");
+  background-image: url("./bgimg/magazine_background.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  height: 170vh;
+  height: 180vh;
   font-family: "Li Shadhinata";
   overflow: hidden;
   box-sizing: border-box;

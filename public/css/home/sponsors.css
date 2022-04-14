@@ -6,6 +6,13 @@
   /* font-size: 26px; */
 }
 
+.text_design_footer {
+  color: maroon;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 .sponsor-img {
   width: 180px;
   height: 180px;
@@ -202,11 +209,11 @@ h3{
   }
   .sponsor-outer-right {
     margin-right: 0px;
-    max-width: 40px;
+    max-width: 33px;
   }
   .sponsor-outer-left {
     margin-left: 0px;
-    max-width: 40px;
+    max-width: 33px;
   }
   .sponsor_box .box {
     margin: 0px;
@@ -249,5 +256,9 @@ h3{
   }
   .sponsor_box .box .imgBx img {
     object-fit: contain;
+  }
+  .sponsor_box {
+    margin-top: 0px;
+    margin-bottom: 16px;
   }
 }
