@@ -2,12 +2,14 @@
  * @param {import("express").Request} req
  * @param {import("express").Response} res
  */
+
+ import moment from "moment";
 const getHomePage = (req, res) => {
   res.render("home");
 };
 
 const getGallery = (req, res) => {
-  res.render("gallery");
+  res.render("gallery",{ moment: moment });
 };
 
 const getEvents = (req, res) => {
