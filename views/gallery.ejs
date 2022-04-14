@@ -1,141 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="stylesheet" href="/css/index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://fonts.cdnfonts.com/css/samarkan" rel="stylesheet" />
+    <link rel="stylesheet" href="/fornts/Unicode/Li-Shadhinata-2-Unicode.ttf" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/gallery.css" />
+  </head>
 
-<head>
-  <link rel="stylesheet" href="/css/index.css" />
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="http://fonts.cdnfonts.com/css/samarkan" rel="stylesheet" />
-  <link rel="stylesheet" href="/fornts/Unicode/Li-Shadhinata-2-Unicode.ttf" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet" />
-  <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
-  <link rel="stylesheet" href="/css/gallery.css">
-</head>
+  <body>
+    <button id="scrollToTop">
+      <i class="fa fa-arrow-up"></i>
+    </button>
 
-<body>
-  <section class="navbar">
-    <%- include("partials/navbar") %>
-  </section>
-  <section class="navbar-mobile">
-    <%- include("partials/navbar-mobile") %>
-  </section>
+    <section class="navbar"><%- include("partials/navbar") %></section>
+    <section class="navbar-mobile">
+      <%- include("partials/navbar-mobile") %>
+    </section>
 
-  <div class="gallery-background">
-    <div class="gallery-clouds">
-      <img src="/img/landing/Bg Clouds.svg" alt="" srcset="">
-    </div>
-    <img class="left-cloud" src="/img/landing/Left Big Cloud.svg" alt="Left Big Clouds" />
-    <img class="right-cloud" src="/img/landing/Right Big Cloud.svg" alt="Right Big Cloud" />
-    <div class="slider-rotate" id="slider">
-      <div class="slider-rotate__container">
+    <div class="gallery-background">
+      <div class="gallery-clouds">
+        <img src="/img/landing/Bg Clouds.svg" alt="" srcset="" />
+      </div>
+      <img
+        class="left-cloud"
+        src="/img/landing/Left Big Cloud.svg"
+        alt="Left Big Clouds"
+      />
+      <img
+        class="right-cloud"
+        src="/img/landing/Right Big Cloud.svg"
+        alt="Right Big Cloud"
+      />
+      <div class="slider-rotate" id="slider">
+        <div class="slider-rotate__container">
+          <!-- ITENS -->
+          <div class="slider-rotate__item">
+            <span class="position">1</span
+            ><img src="/img/gallery_page/Arif_Sir.png" />
+          </div>
+          <div class="slider-rotate__item">
+            <span class="position">2</span
+            ><img src="/img/gallery_page/Director.png" />
+          </div>
+          <div class="slider-rotate__item">
+            <span class="position">3</span
+            ><img src="/img/gallery_page/Mayur_Da.png" />
+          </div>
+          <div class="slider-rotate__item">
+            <span class="position">4</span
+            ><img src="/img/gallery_page/Dance.png" />
+          </div>
+          <div class="slider-rotate__item">
+            <span class="position">5</span
+            ><img src="/img/gallery_page/Guitar.png" />
+          </div>
 
-        <!-- ITENS -->
-        <div class="slider-rotate__item "><span class="position">1</span><img src="/img/gallery_page/Arif_Sir.png">
+          <!-- NAVIGATION -->
+          <span
+            class="slider-rotate__arrow slider-rotate__arrow--right js-slider-rotate-arrow"
+            data-action="next"
+            ><i class="fa fa-arrow-right"></i
+          ></span>
+          <span
+            class="slider-rotate__arrow slider-rotate__arrow--left js-slider-rotate-arrow"
+            data-action="prev"
+            ><i class="fa fa-arrow-left"></i
+          ></span>
         </div>
-        <div class="slider-rotate__item"><span class="position">2</span><img src="/img/gallery_page/Director.png"></div>
-        <div class="slider-rotate__item"><span class="position">3</span><img src="/img/gallery_page/Mayur_Da.png"></div>
-        <div class="slider-rotate__item"><span class="position">4</span><img src="/img/gallery_page/Dance.png"></div>
-        <div class="slider-rotate__item"><span class="position">5</span><img src="/img/gallery_page/Guitar.png"></div>
-
-        <!-- NAVIGATION -->
-        <span class="slider-rotate__arrow slider-rotate__arrow--right js-slider-rotate-arrow" data-action="next"><i
-            class="fa fa-arrow-right"></i></span>
-        <span class="slider-rotate__arrow slider-rotate__arrow--left js-slider-rotate-arrow" data-action="prev"><i
-            class="fa fa-arrow-left "></i></span>
-
+      </div>
+      <div class="gallery-top-text">
+        <h2>শিল্পদ্রব্যের প্রদর্শনী ঘর</h2>
       </div>
     </div>
-    <div class="gallery-top-text">
-      <h2>শিল্পদ্রব্যের প্রদর্শনী ঘর</h2>
+
+    <div class="gallery-teaser">
+      <div class="text">
+        <h1 class="gallery-bengali-text">
+          টিজার ভিডিও
+          <hr />
+          <h2 class="gallery-english-text">Teaser Video</h2>
+          <i
+            class="fa fa-calendar gallery-calendar-icon"
+            aria-hidden="true"
+          ></i>
+          <h3 class="gallery-date"><%= moment().format('Do MMMM, YYYY'); %></h3>
+        </h1>
+        <img
+          class="gallery-rangoli1"
+          src="/img/About/about_rangoli.svg"
+          alt=""
+        />
+        <img
+          class="gallery-rangoli2"
+          src="/img/About/about_rangoli.svg"
+          alt=""
+        />
+        <img
+          class="gallery-rangoli3"
+          src="/img/About/about_rangoli.svg"
+          alt=""
+        />
+        <img
+          class="gallery-rangoli4"
+          src="/img/About/about_rangoli.svg"
+          alt=""
+        />
+      </div>
+      <video
+        id="teaserVid"
+        src="/video/teaserVideo.mp4"
+        controls
+        loop
+        muted
+        poster
+      ></video>
     </div>
-  </div>
+    <h1 class="gallery-bengali-heading">
+      গ্যালারি ইমেজ
+      <hr class="gallery-heading-line" />
+      <h2 class="gallery-english-heading">Gallery Images</h2>
+    </h1>
+    <!-- //Abhranil's -->
+    <div class="gallery">
+      <figure class="gallery__item gallery__item-1">
+        <img
+          src="/img/gallery_page/Image_1.png"
+          class="gallery__img"
+          alt="Image 1"
+        />
+      </figure>
 
+      <figure class="gallery__item gallery__item-2">
+        <img
+          src="/img/gallery_page/Image_2.png"
+          class="gallery__img"
+          alt="Image 2"
+        />
+      </figure>
 
+      <figure class="gallery__item gallery__item-3">
+        <img
+          src="/img/gallery_page/Image_3.png"
+          class="gallery__img"
+          alt="Image 3"
+        />
+      </figure>
 
-  <div class="gallery-teaser">
-    <div class="text">
+      <figure class="gallery__item gallery__item-4">
+        <img
+          src="/img/gallery_page/Image_4.png"
+          class="gallery__img"
+          alt="Image 4"
+        />
+      </figure>
 
-      <h1 class="gallery-bengali-text">টিজার ভিডিও
-        <hr>
-        <h2 class="gallery-english-text">Teaser Video</h2>
-        <i class="fa fa-calendar gallery-calendar-icon" aria-hidden="true"></i>
-        <h3 class="gallery-date"><%= moment().format('Do MMMM, YYYY'); %></h3>
-      </h1>
-      <img class="gallery-rangoli1" src="/img/About/about_rangoli.svg" alt="">
-      <img class="gallery-rangoli2" src="/img/About/about_rangoli.svg" alt="">
-      <img class="gallery-rangoli3" src="/img/About/about_rangoli.svg" alt="">
-      <img class="gallery-rangoli4" src="/img/About/about_rangoli.svg" alt="">
+      <figure class="gallery__item gallery__item-5">
+        <img
+          src="/img/gallery_page/Image_5.png"
+          class="gallery__img"
+          alt="Image 5"
+        />
+      </figure>
+
+      <figure class="gallery__item gallery__item-6">
+        <img
+          src="/img/gallery_page/Image_6.png"
+          class="gallery__img"
+          alt="Image 6"
+        />
+      </figure>
+
+      <figure class="gallery__item gallery__item-7">
+        <img
+          src="/img/gallery_page/Image_7.png"
+          class="gallery__img"
+          alt="Image 7"
+        />
+      </figure>
+
+      <figure class="gallery__item gallery__item-8">
+        <img
+          src="/img/gallery_page/Image_8.png"
+          class="gallery__img"
+          alt="Image 8"
+        />
+      </figure>
+
+      <figure class="gallery__item gallery__item-9">
+        <img
+          src="/img/gallery_page/Image_9.png"
+          class="gallery__img"
+          alt="Image 9"
+        />
+      </figure>
+
+      <figure class="gallery__item gallery__item-10">
+        <img
+          src="/img/gallery_page/Image_10.png"
+          class="gallery__img"
+          alt="Image 10"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-11">
+        <img
+          src="/img/gallery_page/Image_11.png"
+          class="gallery__img"
+          alt="Image 11"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-12">
+        <img
+          src="/img/gallery_page/Image_12.png"
+          class="gallery__img"
+          alt="Image 12"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item-13">
+        <img
+          src="/img/gallery_page/Image_13.png"
+          class="gallery__img"
+          alt="Image 13"
+        />
+      </figure>
     </div>
-    <video id="teaserVid" src="/video/teaserVideo.mp4" controls loop muted poster></video>
-  </div>
-  <h1 class="gallery-bengali-heading">গ্যালারি ইমেজ
-    <hr class="gallery-heading-line">
-    <h2 class="gallery-english-heading">Gallery Images</h2>
-  </h1>
-  <!-- //Abhranil's -->
-  <div class="gallery">
-    <figure class="gallery__item gallery__item-1">
-      <img src="/img/gallery_page/Image_1.png" class="gallery__img" alt="Image 1">
-    </figure>
 
-    <figure class="gallery__item gallery__item-2">
-      <img src="/img/gallery_page/Image_2.png" class="gallery__img" alt="Image 2">
-    </figure>
-
-    <figure class="gallery__item gallery__item-3">
-      <img src="/img/gallery_page/Image_3.png" class="gallery__img" alt="Image 3">
-    </figure>
-
-    <figure class="gallery__item gallery__item-4">
-      <img src="/img/gallery_page/Image_4.png" class="gallery__img" alt="Image 4">
-    </figure>
-
-    <figure class="gallery__item gallery__item-5">
-      <img src="/img/gallery_page/Image_5.png" class="gallery__img" alt="Image 5">
-    </figure>
-
-    <figure class="gallery__item gallery__item-6">
-      <img src="/img/gallery_page/Image_6.png" class="gallery__img" alt="Image 6">
-    </figure>
-
-    <figure class="gallery__item gallery__item-7">
-      <img src="/img/gallery_page/Image_7.png" class="gallery__img" alt="Image 7">
-    </figure>
-
-    <figure class="gallery__item gallery__item-8">
-      <img src="/img/gallery_page/Image_8.png" class="gallery__img" alt="Image 8">
-    </figure>
-
-    <figure class="gallery__item gallery__item-9">
-      <img src="/img/gallery_page/Image_9.png" class="gallery__img" alt="Image 9">
-    </figure>
-
-    <figure class="gallery__item gallery__item-10">
-      <img src="/img/gallery_page/Image_10.png" class="gallery__img" alt="Image 10">
-    </figure>
-    <figure class="gallery__item gallery__item-11">
-      <img src="/img/gallery_page/Image_11.png" class="gallery__img" alt="Image 11">
-    </figure>
-    <figure class="gallery__item gallery__item-12">
-      <img src="/img/gallery_page/Image_12.png" class="gallery__img" alt="Image 12">
-    </figure>
-    <figure class="gallery__item gallery__item-13">
-      <img src="/img/gallery_page/Image_13.png" class="gallery__img" alt="Image 13">
-    </figure>
-  </div>
-
-  <%- include("partials/footer") %>
-
+    <%- include("partials/footer") %>
 
     <!-- js for carousel -->
-    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="/js/gallery.js"></script>
 
     <!-- for mobile navbar  -->
     <script src="/js/navbar.js"></script>
-</body>
 
+    <!-- INDEX -->
+    <script src="/js/index.js"></script>
+  </body>
 </html>
