@@ -307,7 +307,7 @@ body {
   color: yellow;
   margin-left: 10%;
   font-size: 1.5rem;
-  margin-top: 4%;
+  margin-top: 2%;
   font-family: sans-serif;
 }
 
@@ -457,8 +457,8 @@ figure {
 .gallery-english-heading {
   color: yellow;
   margin-left: 10%;
+  margin-top: 2%;
   font-size: 1.5rem;
-  margin-top: 2.5%;
   font-family: sans-serif;
 }
 
