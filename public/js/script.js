@@ -15,7 +15,7 @@ $(function () {
   var s14 = $("#slider-team-12").sliderRotate({ displayItems: 4 });
   var s15 = $("#slider-team-13").sliderRotate({ displayItems: 2 });
   var s15 = $("#slider-team-14").sliderRotate({ displayItems: 2 });
-  var s15 = $("#slider-team-13").sliderRotate({ displayItems: 2 });
+  var s15 = $("#slider-team-15").sliderRotate({ displayItems: 2 });
 });
 
 //-------------------------------------------

@@ -1,5 +1,6 @@
 .carousal {
   margin-left: -12rem;
+  margin-bottom: 2rem;
 }
 
 .carousal .slider-rotate {
@@ -46,6 +47,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
 }
 
 .carousal .slider-rotate__item .carousal-modal {
@@ -53,7 +59,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 12%;
+  bottom: 1%;
   background-color: #edf178;
   height: 150px;
   width: 100%;
@@ -237,5 +243,14 @@
     .slider-rotate__container
     .slider-rotate__arrow.slider-rotate__arrow--right {
     right: 29%;
+  }
+
+  .carousal .slider-rotate__item .carousal-modal{
+    bottom: 20%;
+    height: 80px;
+  }
+
+  .carousal .slider-rotate__item .carousal-modal .icons{
+    height: 7vh;
   }
 }
