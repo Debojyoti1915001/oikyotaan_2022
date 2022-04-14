@@ -20,4 +20,8 @@ const getTeam = (req, res) => {
   res.render("team");
 };
 
-export { getHomePage, getGallery, getEvents, getTeam };
+const getMeetTeam = (req, res) => {
+  res.render("meetTeam");
+};
+
+export { getHomePage, getGallery, getEvents, getTeam, getMeetTeam };
