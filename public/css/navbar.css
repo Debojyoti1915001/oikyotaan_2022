@@ -113,3 +113,22 @@
     display: block;
   }
 }
+
+
+#scrollToTop{
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+  padding: 2rem;
+  z-index: 10000;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  outline:none;
+  border: none;
+  cursor: pointer;
+}

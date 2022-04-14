@@ -10,6 +10,12 @@ $(function () {
   var s9 = $("#slider-team-7").sliderRotate({ displayItems: 5 });
   var s10 = $("#slider-team-8").sliderRotate({ displayItems: 8 });
   var s11 = $("#slider-team-9").sliderRotate({ displayItems: 5 });
+  var s12 = $("#slider-team-10").sliderRotate({ displayItems: 3 });
+  var s13 = $("#slider-team-11").sliderRotate({ displayItems: 6 });
+  var s14 = $("#slider-team-12").sliderRotate({ displayItems: 4 });
+  var s15 = $("#slider-team-13").sliderRotate({ displayItems: 2 });
+  var s15 = $("#slider-team-14").sliderRotate({ displayItems: 2 });
+  var s15 = $("#slider-team-15").sliderRotate({ displayItems: 2 });
 });
 
 //-------------------------------------------

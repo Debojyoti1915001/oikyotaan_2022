@@ -17,3 +17,12 @@ navlinks.forEach((navlink) => {
     });
   }
 });
+
+// ====================== SCROLL TO TOP BUTTON ==================
+
+const scrollToTop = document.querySelector("#scrollToTop");
+
+scrollToTop.addEventListener("click", () => {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+});
