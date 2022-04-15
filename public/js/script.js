@@ -5,7 +5,7 @@ $(function () {
   var s4 = $("#slider-team-2").sliderRotate({ displayItems: 2 });
   var s5 = $("#slider-team-3").sliderRotate({ displayItems: 1 });
   var s6 = $("#slider-team-4").sliderRotate({ displayItems: 3 });
-  var s7 = $("#slider-team-5").sliderRotate({ displayItems: 2 });
+  var s7 = $("#slider-team-5").sliderRotate({ displayItems: 1 });
   var s8 = $("#slider-team-6").sliderRotate({ displayItems: 3 });
   var s9 = $("#slider-team-7").sliderRotate({ displayItems: 1 });
   var s10 = $("#slider-team-8").sliderRotate({ displayItems: 5 });
