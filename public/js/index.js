@@ -36,3 +36,11 @@ teamPageATag.forEach((aTag) => {
     e.stopPropagation();
   });
 });
+
+// =======preloader==========//
+
+      
+var loader = document.getElementById("preloader");
+document.addEventListener("load", setTimeout(function () {
+  loader.style.display = "none";
+},7000));
