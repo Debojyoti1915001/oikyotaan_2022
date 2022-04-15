@@ -26,3 +26,13 @@ scrollToTop.addEventListener("click", () => {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 });
+
+// ================= ANCHOR TAG HREF ===========================
+const teamPageATag = document.querySelectorAll(
+  ".carousal .slider-rotate__item .carousal-modal a.icons"
+);
+teamPageATag.forEach((aTag) => {
+  aTag.addEventListener("click", (e) => {
+    e.stopPropagation();
+  });
+});
