@@ -206,7 +206,7 @@ body {
 }
 
 .slider-rotate__container .slider-rotate__arrow.slider-rotate__arrow--right {
-  right: -30%;
+  right: -31%;
 }
 
 .gallery-background {
@@ -303,7 +303,7 @@ body {
 .gallery-top-text {
   position: absolute;
   text-align: center;
-  top: 75%;
+  top: 85%;
   left: 50%;
   color: #eaee85;
   font-size: 2rem;
@@ -619,6 +619,7 @@ img.gallery__img:hover {
     text-align: center;
     top: 80%;
     left: 50%;
+    width: 100%;
     color: #eaee85;
     font-size: 1.5rem;
     font-family: "Li Shadhinata";

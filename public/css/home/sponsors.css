@@ -66,12 +66,14 @@
   margin-left: 40px;
   float: left;
   height: 70%;
+  max-width: 60px;
 }
 
 .sponsor-outer-right {
   margin-right: 40px;
   float: right;
   height: 70%;
+  max-width: 60px;
   transform: scaleX(-1);
 }
 .sponsor_box {
