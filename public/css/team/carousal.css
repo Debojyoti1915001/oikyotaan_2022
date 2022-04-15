@@ -76,8 +76,10 @@
 .carousal .slider-rotate__item .carousal-modal .icons {
   position: relative;
   height: 10vh;
+  width: 10vh;
   aspect-ratio: 1/1;
   overflow: hidden;
+  pointer-events: all;
 }
 
 .carousal .slider-rotate__item .carousal-modal .icons img {
