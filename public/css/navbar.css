@@ -104,13 +104,29 @@
   font-size: 1.5rem;
   padding: 0.5rem 1rem;
 }
-
+.preloader_lottie {
+  background-position: center center;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1111111111111111111111111111111111111111111111;
+}
 @media screen and (max-width:768px) {
   .navbar{
     display: none;
   }
   .navbar-mobile{
     display: block;
+  }
+  .preloader_lottie {
+    background-position: 10% 50%;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin-top: -33%;
+    z-index: 1111111111111111111111111111111111111111111111;
   }
 }
 
