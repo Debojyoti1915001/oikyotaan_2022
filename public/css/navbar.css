@@ -125,7 +125,7 @@
     height: 100%;
     width: 100%;
     position: fixed;
-    margin-top: -33%;
+    /* margin-top: -33%; */
     z-index: 1111111111111111111111111111111111111111111111;
   }
 }
