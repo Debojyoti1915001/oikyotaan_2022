@@ -303,11 +303,12 @@ body {
 .gallery-top-text {
   position: absolute;
   text-align: center;
-  top: 85%;
+  top: 96%;
   left: 50%;
-  color: #eaee85;
+  color: yellow;
   font-size: 2rem;
   transform: translateX(-50%);
+  z-index: 5;
 }
 
 .gallery-bengali-text {
@@ -617,7 +618,7 @@ img.gallery__img:hover {
   .gallery-top-text {
     position: absolute;
     text-align: center;
-    top: 80%;
+    top: 97%;
     left: 50%;
     width: 100%;
     color: #eaee85;
