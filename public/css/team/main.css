@@ -54,11 +54,12 @@
 .team-main .profile-section .profile .profile-name span {
   display: block;
   text-align: center;
+  font-size: 1.2rem;
   width: 100%;
 }
 
 .team-main .profile-section .profile .profile-name .bengali-name {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .team-main .team-members-list {
